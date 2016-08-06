@@ -102,11 +102,14 @@ add_action( 'widgets_init', 'opposition_widgets_init' );
  * Enqueue scripts and styles.
  */
 function opposition_scripts() {
-	wp_enqueue_style( 'opposition-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '20160805' );
+	wp_enqueue_style( 'opposition-css', get_template_directory_uri() . '/css/opposition.css', array(), '20160805' );
+	// wp_enqueue_script( 'opposition-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	// wp_enqueue_script( 'opposition-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'opposition-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'opposition-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'opposition-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(), '20160805', true );
+	wp_enqueue_script( 'opposition-boostrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20160805', true );
+	wp_enqueue_script( 'opposition-app-js', get_template_directory_uri() . '/js/opposition.js', array(), '20160805', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
