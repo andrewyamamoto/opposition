@@ -9,4 +9,5 @@
 
 ?>
 <section id="shop">
+    <h1>SHOP STUFF HERE</h1>
 </section>

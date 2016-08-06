@@ -9,5 +9,7 @@
 
 ?>
 <section id="intro">
-    <?php get_template_part('nav'); ?>
+
+    <h1>INTRO STUFF HERE</h1>
+
 </section>

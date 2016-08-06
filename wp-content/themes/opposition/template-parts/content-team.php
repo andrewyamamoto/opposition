@@ -9,4 +9,5 @@
 
 ?>
 <section id="team">
+    <h1>TEAM STUFF HERE</h1>
 </section>
