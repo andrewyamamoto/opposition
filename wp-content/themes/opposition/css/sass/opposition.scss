@@ -1,46 +1,9 @@
-// colors
-$black    :#000;
-$white    :#FFF;
+@import '_mixins';
+@import '_fonts';
+@import 'palette';
+@import '_nav';
 
-@font-face {
-    font-family: 'abelregular';
-    src: url('../fonts/abel-regular-webfont.woff2') format('woff2'),
-         url('../fonts/abel-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'source_code_probold';
-    src: url('../fonts/sourcecodepro-bold-webfont.woff2') format('woff2'),
-         url('../fonts/sourcecodepro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'source_code_probold_italic';
-    src: url('../fonts/sourcecodepro-boldit-webfont.woff2') format('woff2'),
-         url('../fonts/sourcecodepro-boldit-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'source_code_proitalic';
-    src: url('../fonts/sourcecodepro-it-webfont.woff2') format('woff2'),
-         url('../fonts/sourcecodepro-it-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'source_code_proregular';
-    src: url('../fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
-         url('../fonts/sourcecodepro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body{
     background-color:#000;
@@ -51,32 +14,41 @@ h1{
     font-family: 'abelregular', sans-serif;
     font-size:43px;
 }
-.navbar{
-    .navbar-brand{
-        color:$white;
-        font-size:20px;
-    }
-    &.navbar-default{
-        border:none;
-        background:none;
-        ul {
-            li{
-                a{
-                    font-size:12px;
-                    color:$white;
-                    text-transform: uppercase;
-                }
-            }
-        }
-    }
+.content-padding{
+    padding:200px 0 200px 0;
 }
-nav{
-    ul{
-        li{
-            a{
-                color:$white;
-            }
-        }
+#intro{
+    @extend .content-padding;
+    padding-top: 0px;
+    padding-bottom:200px;
+    width:100%;
+    z-index:1000;
+    position:relative;
+    .actionbar{
+        position:relative;
+        z-index:2;
     }
-
+    nav{
+        position:relative;
+        z-index:3;
+    }
+    h1{text-align:center;}
+    p{text-align:center;}
+}
+#bgvid{
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    z-index: -100;
+    transform: translateX(-50%);
+}
+#about{
+    @extend .content-padding;
+    h1{
+        text-align:center;
+        margin-bottom:20px;
+    }
+    p{
+        text-align:center;
+    }
 }
