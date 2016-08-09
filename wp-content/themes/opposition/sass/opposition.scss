@@ -1,0 +1,88 @@
+@import '_mixins';
+@import '_fonts';
+@import 'palette';
+@import '_nav';
+
+
+
+body{
+    background-color:#000;
+    color:#FFF;
+    font-family: 'source_code_proregular', sans-serif;
+}
+h1{
+    font-family: 'abelregular', sans-serif;
+    font-size:43px;
+}
+.content-padding{
+    padding:200px 0 200px 0;
+}
+
+#intro,
+#about,
+#team
+{
+    @extend .content-padding;
+    h1{
+        text-align:center;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align:center;
+    }
+}
+.interiorheader{
+    background:url(../img/start-animate-flip.jpg) center top no-repeat;
+    position: absolute;
+    top:-50px;
+    left: 50%;
+    z-index: -100;
+    transform: translateX(-50%);
+    height: 100%;
+    width:100%;
+    // @include img-cover();
+}
+#intro{
+    padding-top: 0px;
+    padding-bottom:200px;
+    width:100%;
+    z-index:1000;
+    position:relative;
+    .actionbar{
+        position:relative;
+        z-index:2;
+    }
+    nav{
+        position:relative;
+        z-index:3;
+    }
+    #bgvid{
+        position: absolute;
+        top:-50px;
+        left: 50%;
+        z-index: -100;
+        transform: translateX(-50%);
+    }
+
+}
+
+#about{
+    background-color:darken($blue-dark, 20%);
+}
+#team{
+}
+.menu li.site-login > a{
+  /* Colors, font sizes, would normally go here */
+}
+
+
+.page-template-forums{
+
+    #intro{
+        padding-bottom:0;
+        .navbar{
+            padding-bottom:0;
+        }
+
+    }
+}

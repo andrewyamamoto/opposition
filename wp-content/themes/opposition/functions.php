@@ -118,6 +118,16 @@ function opposition_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'opposition_scripts' );
 
+// Add your filter
+function add_registration_link($items, $args){
+if (is_user_logged_in() && $args->theme_location == 'primary') {
+    $items .= '';
+}
+elseif (!is_user_logged_in() && $args->theme_location == 'primary') {
+    $items .= $registration_url;
+}
+return $items;
+}
 /**
  * Implement the Custom Header feature.
  */

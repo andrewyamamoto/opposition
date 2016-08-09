@@ -115,8 +115,30 @@ h1 {
   font-family: 'abelregular', sans-serif;
   font-size: 43px; }
 
-.content-padding, #intro, #about {
+.content-padding, #intro,
+#about,
+#team {
   padding: 200px 0 200px 0; }
+
+#intro h1,
+#about h1,
+#team h1 {
+  text-align: center;
+  margin-bottom: 20px; }
+#intro p,
+#about p,
+#team p {
+  text-align: center; }
+
+.interiorheader {
+  background: url(../img/start-animate-flip.jpg) center top no-repeat;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  z-index: -100;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%; }
 
 #intro {
   padding-top: 0px;
@@ -130,20 +152,20 @@ h1 {
   #intro nav {
     position: relative;
     z-index: 3; }
-  #intro h1 {
-    text-align: center; }
-  #intro p {
-    text-align: center; }
+  #intro #bgvid {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    z-index: -100;
+    transform: translateX(-50%); }
 
-#bgvid {
-  position: absolute;
-  top: -50px;
-  left: 50%;
-  z-index: -100;
-  transform: translateX(-50%); }
+#about {
+  background-color: #0e253a; }
 
-#about h1 {
-  text-align: center;
-  margin-bottom: 20px; }
-#about p {
-  text-align: center; }
+.menu li.site-login > a {
+  /* Colors, font sizes, would normally go here */ }
+
+.page-template-forums #intro {
+  padding-bottom: 0; }
+  .page-template-forums #intro .navbar {
+    padding-bottom: 0; }

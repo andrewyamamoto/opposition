@@ -1,0 +1,476 @@
+[08-Aug-2016 22:29:24 UTC] PHP Notice:  Undefined variable: Custom_Menu_Class_enable in /srv/www/opposition/htdocs/wp-content/plugins/custom-menu-class/custom-menu-class.php on line 106
+[08-Aug-2016 22:29:24 UTC] PHP Notice:  Undefined variable: Custom_Menu_Class_enable in /srv/www/opposition/htdocs/wp-content/plugins/custom-menu-class/custom-menu-class.php on line 106
+[08-Aug-2016 22:33:42 UTC] PHP Notice:  Undefined variable: Custom_Menu_Class_enable in /srv/www/opposition/htdocs/wp-content/plugins/custom-menu-class/custom-menu-class.php on line 106
+[08-Aug-2016 22:33:42 UTC] PHP Notice:  Undefined variable: Custom_Menu_Class_enable in /srv/www/opposition/htdocs/wp-content/plugins/custom-menu-class/custom-menu-class.php on line 106
+[08-Aug-2016 22:58:40 UTC] WordPress database error Table 'wp_EWD_FEUP_Users' already exists for query CREATE TABLE wp_EWD_FEUP_Users (
+  		User_ID mediumint(9) NOT NULL AUTO_INCREMENT,
+  		Username text NULL,
+		User_Password text NULL,
+		Level_ID mediumint(9) DEFAULT 0 NOT NULL,
+		User_Email_Confirmed text NULL,
+		User_Confirmation_Code text NULL,
+		User_Admin_Approved text NULL,
+		User_Date_Created datetime DEFAULT '0000-00-00 00:00:00' NULL,
+		User_Last_Login datetime DEFAULT '0000-00-00 00:00:00' NULL,
+		User_Total_Logins mediumint(9) DEFAULT 0 NOT NULL,
+		User_Password_Reset_Code text NULL,
+		User_Password_Reset_Date datetime DEFAULT '0000-00-00 00:00:00' NULL,
+		User_Sessioncheck varchar(255) DEFAULT NULL,
+		User_WP_ID mediumint(9) DEFAULT 0 NOT NULL,
+		User_Membership_Fees_Paid text NULL,
+		User_Account_Expiry text NULL,
+		User_Registration_Type text NULL,
+		User_Third_Party_ID text NULL,
+  		UNIQUE KEY id (User_ID)
+    	)
+		DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by activate_plugin, include_once('/plugins/front-end-only-users/Main.php'), Update_EWD_FEUP_Tables, dbDelta
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 22:58:47 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 22:59:32 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 22:59:41 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 23:15:52 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Level_Payments in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/Functions/Update_Admin_Databases.php on line 584
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Discount_Codes in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/Functions/Update_Admin_Databases.php on line 604
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 23:16:42 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 133
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 134
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 135
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 136
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 137
+[08-Aug-2016 23:16:56 UTC] PHP Notice:  Undefined variable: Display_Tab in /srv/www/opposition/htdocs/wp-content/plugins/front-end-only-users/html/OptionsPage.php on line 138
+[08-Aug-2016 23:24:45 UTC] PHP Strict Standards:  call_user_func_array() expects parameter 1 to be a valid callback, non-static method SimpleWpMembership::deactivate() should not be called statically in /srv/www/opposition/htdocs/wp-includes/plugin.php on line 525
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levels ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'allow_signups' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `allow_signups` (`allow_signups`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'name' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `name` (`name`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_orders ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_membership_orders ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'session_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `session_id` (`session_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'gateway' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway` (`gateway`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'gateway_environment' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway_environment` (`gateway_environment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'payment_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `payment_transaction_id` (`payment_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'subscription_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `subscription_transaction_id` (`subscription_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'affiliate_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_id` (`affiliate_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'affiliate_subid' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_subid` (`affiliate_subid`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'checkout_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `checkout_id` (`checkout_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'membership_category' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `membership_category` (`membership_id`,`category_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `category_membership` (`category_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `category_membership` (`page_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'membership_page' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `membership_page` (`membership_id`,`page_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_memberships_users ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'modified' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `modified` (`modified`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'code_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `code_id` (`code_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'enddate' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `enddate` (`enddate`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_discount_codes ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'starts' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `starts` (`starts`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'expires' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `expires` (`expires`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_levels ADD PRIMARY KEY (`code_id`,`level_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_discount_codes_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_uses ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levelmeta ADD PRIMARY KEY (`meta_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levels ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'allow_signups' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `allow_signups` (`allow_signups`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] WordPress database error Duplicate key name 'name' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `name` (`name`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:48 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_orders ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_membership_orders ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'session_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `session_id` (`session_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'gateway' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway` (`gateway`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'gateway_environment' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway_environment` (`gateway_environment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'payment_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `payment_transaction_id` (`payment_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'subscription_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `subscription_transaction_id` (`subscription_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'affiliate_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_id` (`affiliate_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'affiliate_subid' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_subid` (`affiliate_subid`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'checkout_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `checkout_id` (`checkout_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_category' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `membership_category` (`membership_id`,`category_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `category_membership` (`category_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `category_membership` (`page_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_page' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `membership_page` (`membership_id`,`page_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_memberships_users ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'modified' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `modified` (`modified`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `code_id` (`code_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'enddate' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `enddate` (`enddate`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_discount_codes ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'starts' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `starts` (`starts`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'expires' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `expires` (`expires`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_levels ADD PRIMARY KEY (`code_id`,`level_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_discount_codes_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_uses ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levelmeta ADD PRIMARY KEY (`meta_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levels ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'allow_signups' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `allow_signups` (`allow_signups`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'name' for query ALTER TABLE wp_pmpro_membership_levels ADD KEY `name` (`name`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_orders ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_membership_orders ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'session_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `session_id` (`session_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'gateway' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway` (`gateway`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'gateway_environment' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `gateway_environment` (`gateway_environment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'payment_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `payment_transaction_id` (`payment_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'subscription_transaction_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `subscription_transaction_id` (`subscription_transaction_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'affiliate_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_id` (`affiliate_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'affiliate_subid' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `affiliate_subid` (`affiliate_subid`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'checkout_id' for query ALTER TABLE wp_pmpro_membership_orders ADD KEY `checkout_id` (`checkout_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_category' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `membership_category` (`membership_id`,`category_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_categories ADD UNIQUE KEY `category_membership` (`category_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'category_membership' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `category_membership` (`page_id`,`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_page' for query ALTER TABLE wp_pmpro_memberships_pages ADD UNIQUE KEY `membership_page` (`membership_id`,`page_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_memberships_users ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'membership_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `membership_id` (`membership_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'modified' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `modified` (`modified`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `code_id` (`code_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'enddate' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `enddate` (`enddate`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'status' for query ALTER TABLE wp_pmpro_memberships_users ADD KEY `status` (`status`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'code' for query ALTER TABLE wp_pmpro_discount_codes ADD UNIQUE KEY `code` (`code`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'starts' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `starts` (`starts`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'expires' for query ALTER TABLE wp_pmpro_discount_codes ADD KEY `expires` (`expires`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_levels ADD PRIMARY KEY (`code_id`,`level_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'initial_payment' for query ALTER TABLE wp_pmpro_discount_codes_levels ADD KEY `initial_payment` (`initial_payment`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_discount_codes_uses ADD PRIMARY KEY (`id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'user_id' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `user_id` (`user_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] WordPress database error Duplicate key name 'timestamp' for query ALTER TABLE wp_pmpro_discount_codes_uses ADD KEY `timestamp` (`timestamp`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] PHP Notice:  Undefined offset: 1 in /srv/www/opposition/htdocs/wp-admin/includes/upgrade.php on line 2225
+[08-Aug-2016 23:24:49 UTC] WordPress database error Multiple primary key defined for query ALTER TABLE wp_pmpro_membership_levelmeta ADD PRIMARY KEY (`meta_id`) made by activate_plugin, include_once('/plugins/paid-memberships-pro/paid-memberships-pro.php'), pmpro_checkForUpgrades, pmpro_db_delta, dbDelta
+[09-Aug-2016 00:16:08 UTC] PHP Strict Standards:  call_user_func_array() expects parameter 1 to be a valid callback, non-static method SimpleWpMembership::deactivate() should not be called statically in /srv/www/opposition/htdocs/wp-includes/plugin.php on line 525
+[09-Aug-2016 00:22:08 UTC] PHP Strict Standards:  call_user_func_array() expects parameter 1 to be a valid callback, non-static method SimpleWpMembership::deactivate() should not be called statically in /srv/www/opposition/htdocs/wp-includes/plugin.php on line 525
+[09-Aug-2016 00:30:38 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:39 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:39 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:39 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:41 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:43 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:30:46 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3897
+[09-Aug-2016 00:37:35 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 34
+[09-Aug-2016 00:37:36 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 34
+[09-Aug-2016 00:38:08 UTC] PHP Fatal error:  Call to undefined function is_forum() in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 15
+[09-Aug-2016 00:38:09 UTC] PHP Fatal error:  Call to undefined function is_forum() in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 15
+[09-Aug-2016 00:46:14 UTC] PHP Fatal error:  Cannot redeclare is_page() (previously declared in /srv/www/opposition/htdocs/wp-includes/query.php:474) in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 12
+[09-Aug-2016 00:46:15 UTC] PHP Fatal error:  Cannot redeclare is_page() (previously declared in /srv/www/opposition/htdocs/wp-includes/query.php:474) in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 12
