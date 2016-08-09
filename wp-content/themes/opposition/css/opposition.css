@@ -31,7 +31,7 @@
     .navbar .navbar-header img {
       position: absolute;
       left: 50%;
-      top: -75px;
+      top: -45px;
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%); }
     .navbar .navbar-header .navbar-toggle {
