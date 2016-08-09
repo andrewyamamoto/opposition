@@ -476,3 +476,5 @@
 [09-Aug-2016 00:46:15 UTC] PHP Fatal error:  Cannot redeclare is_page() (previously declared in /srv/www/opposition/htdocs/wp-includes/query.php:474) in /srv/www/opposition/htdocs/wp-content/themes/opposition/forums.php on line 12
 [09-Aug-2016 01:43:39 UTC] PHP Notice:  Undefined index: force-public-pages in /srv/www/opposition/htdocs/wp-content/plugins/contexture-page-security/views/options.php on line 160
 [09-Aug-2016 01:47:34 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/opposition/htdocs/wp-content/plugins/contexture-page-security/core/CTXPS_Security.php on line 42
+[09-Aug-2016 01:52:34 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/opposition/htdocs/wp-content/plugins/contexture-page-security/core/CTXPS_Security.php on line 42
+[09-Aug-2016 01:52:38 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/opposition/htdocs/wp-content/plugins/contexture-page-security/core/CTXPS_Security.php on line 42

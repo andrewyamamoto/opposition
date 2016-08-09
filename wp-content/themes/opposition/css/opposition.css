@@ -165,9 +165,7 @@ h1 {
 .menu li.site-login > a {
   /* Colors, font sizes, would normally go here */ }
 
-.page-template-forums #intro,
-.forum #intro {
+.bbpress #intro {
   padding-bottom: 0; }
-  .page-template-forums #intro .navbar,
-  .forum #intro .navbar {
+  .bbpress #intro .navbar {
     padding-bottom: 0; }
