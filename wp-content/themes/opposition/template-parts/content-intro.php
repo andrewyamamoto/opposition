@@ -14,20 +14,24 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
+                <div style='text-align:center'>
+                    <?php the_post_thumbnail();?>
+                </div>
                 <h1>
                 <?php
+
                     if ( get_field('intro_title') ) {
                         the_field('intro_title');
                     }
                  ?>
                 </h1>
-                <p>
+                <!-- <p> -->
                     <?php
-                        if ( get_field('intro_description') ) {
-                            the_field('intro_description');
-                        }
+                        // if ( get_field('intro_description') ) {
+                        //     the_field('intro_description');
+                        // }
                      ?>
-                </p>
+                <!-- </p> -->
             </div>
         </div>
     </div>

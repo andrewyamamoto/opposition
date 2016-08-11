@@ -17,8 +17,8 @@
                    <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="<?php echo get_template_directory_uri() . '/img/opposition_logo.png'?>" width='50' alt="" />
-                    OPPOSITION
+                    <!-- <img src="<?php //echo get_template_directory_uri() . '/img/opposition_logo.png'?>" width='50' alt="" /> -->
+                    <!-- OPPOSITION -->
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="oppo-navbar-collapse">

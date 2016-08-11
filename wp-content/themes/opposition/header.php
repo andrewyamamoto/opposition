@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <section id="intro">
+    <section id="navi">
 
         <div class="actionbar">
             <div class="container">
@@ -45,10 +45,14 @@
 
         <?php
             if ( is_front_page() ) : ?>
-            <video id="bgvid" poster="<?php echo get_template_directory_uri() . '/img/start-animate-flip.jpg' ?>" autoplay muted loop>
-                <source src="<?php echo get_template_directory_uri() . '/vid/Star-animate-2.mp4' ?>" type="video/mp4">
-                <source src="<?php echo get_template_directory_uri() . '/vid/Star-animate-2.webm' ?>" type="video/webm">
-            </video>
+            <div class="intro-vid">
+
+                <video id="bgvid" poster="<?php echo get_template_directory_uri() . '/img/start-animate-flip.jpg' ?>" autoplay muted loop>
+                    <source src="<?php echo get_template_directory_uri() . '/vid/Star-animate-2.mp4' ?>" type="video/mp4">
+                    <source src="<?php echo get_template_directory_uri() . '/vid/Star-animate-2.webm' ?>" type="video/webm">
+                </video>
+
+            </div>
         <?php else: ?>
             <div class='interiorheader'></div>
         <?php endif;?>
