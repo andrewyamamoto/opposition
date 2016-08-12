@@ -117,17 +117,20 @@ h1 {
 
 .content-padding, #intro,
 #about,
-#team {
+#team,
+#shop {
   padding: 200px 0 200px 0; }
 
 #intro h1,
 #about h1,
-#team h1 {
+#team h1,
+#shop h1 {
   text-align: center;
   margin-bottom: 20px; }
 #intro p,
 #about p,
-#team p {
+#team p,
+#shop p {
   text-align: center; }
 
 .interiorheader {
@@ -200,46 +203,46 @@ h1 {
   -o-background-size: cover;
   background-size: cover; }
   #team .member-area {
-    margin-top: 30px;
-    overflow: auto; }
-    #team .member-area .extra-info {
+    margin-top: 30px; }
+    #team .member-area .extra-info-container {
       overflow: hidden;
-      height: 0px;
+      height: 0;
       background-color: rgba(0, 0, 0, 0.4);
       transition: height, .5s;
       text-align: center; }
-      #team .member-area .extra-info .extra-content {
+      #team .member-area .extra-info-container .extra-content {
         padding: 50px 0; }
-      #team .member-area .extra-info .name {
-        font-family: 'abelregular', sans-serif;
+        #team .member-area .extra-info-container .extra-content .name {
+          font-family: 'abelregular', sans-serif;
+          text-transform: uppercase;
+          font-size: 22px;
+          color: #00ccff;
+          font-weight: normal; }
+        #team .member-area .extra-info-container .extra-content .close-btn {
+          color: #CCC;
+          padding: 20px;
+          cursor: pointer;
+          font-size: 20px;
+          display: inline-block; }
+        #team .member-area .extra-info-container .extra-content .title {
+          font-family: 'abelregular', sans-serif;
+          text-transform: uppercase;
+          font-size: 16px;
+          color: #FFF;
+          margin-bottom: 15px; }
+      #team .member-area .extra-info-container .attributes-content .attributes {
+        padding: 50px 0;
         text-transform: uppercase;
-        font-size: 22px;
         color: #00ccff;
-        font-weight: normal; }
-      #team .member-area .extra-info .close-btn {
-        color: #CCC;
-        padding: 20px;
-        cursor: pointer;
-        font-size: 20px;
         display: inline-block; }
-      #team .member-area .extra-info .title {
-        font-family: 'abelregular', sans-serif;
-        text-transform: uppercase;
-        font-size: 16px;
-        color: #FFF;
-        margin-bottom: 15px; }
-      #team .member-area .extra-info .attributes {
-        text-transform: uppercase;
-        color: #00ccff;
-        display: inline-block; }
-        #team .member-area .extra-info .attributes:after {
+        #team .member-area .extra-info-container .attributes-content .attributes:after {
           content: " / "; }
-        #team .member-area .extra-info .attributes:last-child:after {
+        #team .member-area .extra-info-container .attributes-content .attributes:last-child:after {
           content: ""; }
-      #team .member-area .extra-info .label {
-        text-transform: uppercase;
-        color: #00ccff;
-        font-size: 14px; }
+        #team .member-area .extra-info-container .attributes-content .attributes .label {
+          text-transform: uppercase;
+          color: #00ccff;
+          font-size: 14px; }
     #team .member-area .member {
       display: block;
       border: 1px solid transparent;
@@ -296,9 +299,6 @@ h1 {
         margin-bottom: 30px;
         transition: border-color, .2s;
         transition: border-width, .2s; }
-
-#shop {
-  height: 3000px; }
 
 .bbpress #intro {
   padding-bottom: 0; }

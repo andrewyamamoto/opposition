@@ -7,43 +7,45 @@ $document.ready(function($){
         $(this).toggleClass("active");
 
     });
+    var option = {
+        easing: "easeInBounce",
+    };
+    $('.navbar a').on('click', function(e){
+        $(this.hash).velocity('scroll', {duration: 1500,easing: "easeOutQuint" });
+    });
+
 
     $('.member').on('click', function( e ){
-
+        var s = $('body').scrollTop();
         var _this                   = $(this);
-        var extraContent            = $(this).find('.extra').clone();
-        var currentTar              = $(e.currentTarget).closest('.member-area').find('.extra-info');
+        var contentClone            = $(this).find('.extra').clone();
+        var currentTar              = $(e.currentTarget).closest('.member-area').find('.extra-info-container');
 
-        // $(e.currentTarget).closest('.member-area').addClass('open');
-
+        // console.log(s);
+        // Highlight Selected Member
         $('.member-area .item').each(function(index, target){
             $(target).find('.member').removeClass('active');
         });
-
         $(this).addClass('active');
 
-        // $(e.currentTarget).closest('.member-area').find('.extra-info').slideDown();
+        // Close all info panels on click of member
         $('.member-area').each(function(ind, tar){
-
-            $(tar).find('.extra-info').css({'height':'0'});
-
+            $(tar).find('.extra-info-container').css({'height':'0'}).removeClass('open');
         });
 
-        // $("html, body").delay(2000).animate({
-        //   scrollTop: $(currentTar).offset().top - 400,
-        // }, 500);
-        // $('html, body').scrollTop($(currentTar).scrollHeight);
-        // $(currentTar).velocity("scroll",{offset: "0", mobileHA: false});
+        //Fill content into info panel and expand depending on contents
+        $(currentTar).html( contentClone );
 
-        $(currentTar).css({'height':'400px'}).html( extraContent );
-        //.velocity("scroll", { offset: $(currentTar).innerHeight(), mobileHA: false });
+        var currentTarHeight = $(currentTar).find('.extra').innerHeight();
+        $(currentTar).addClass('open').velocity({'height': currentTarHeight}).delay(400).velocity("scroll", { offset: - $(window).innerHeight() + currentTarHeight});
 
+
+        // Close the panel and deselect
         $('.close-btn').on("click", function(){
             _this.removeClass('active');
             $(currentTar).css({'height':'0'});
+            $('body').velocity("scroll",{ offset: s },{ duration: 1000 });
         });
-
-        // $(currentTar);
 
     });
 

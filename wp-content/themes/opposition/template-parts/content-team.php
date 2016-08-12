@@ -51,11 +51,9 @@
         <?php
                 while ( $loop->have_posts() ) : $loop->the_post();
 
-
                     $m_title                    = get_field('opp_member_title');
                     $m_desc                     = get_field('opp_member_description');
                     $extraArray                 = array();
-                    // $m_extra             = get_field('opp_member_extras');
 
                     while ( have_rows('opp_member_extras') ) : the_row();
 
@@ -122,20 +120,29 @@
                                     <div class='extra'>
 
                                         <div class="container">
-                                            <span class='close-btn'><i class='fa fa-times'></i></span>
-                                            <div class="col-lg-8 col-lg-offset-2">
-                                                <div class="extra-content">
-                                                    <div class='name'><?php echo $vv[0] ?></div>
-                                                    <div class='title'><?php echo $vv[2] ?></div>
-                                                    <p class='description'><?php echo $vv[3] ?></p>
+
+                                            <div class="row">
+
+                                                <div class="col-lg-8 col-lg-offset-2">
+
+                                                    <div class='extra-content'>
+                                                        <span class='close-btn'><i class='fa fa-times'></i></span>
+                                                        <div class='name'><?php echo $vv[0] ?></div>
+                                                        <div class='title'><?php echo $vv[2] ?></div>
+                                                        <p class='description'><?php echo $vv[3] ?></p>
+                                                    </div>
+                                                    <div class='attributes-content'>
+                                                        <?php foreach($vv[4] as $extra){ ?>
+
+                                                        <div class='attributes'>
+                                                            <?php echo $extra ?>
+                                                        </div>
+
+                                                        <?php } ?>
+                                                    </div>
+
                                                 </div>
-                                            </div>
-                                            <div class="col-lg-12">
-                                                <?php foreach($vv[4] as $extra){ ?>
 
-                                                <div class='attributes'><?php echo $extra ?></div>
-
-                                                <?php } ?>
                                             </div>
 
                                         </div>
@@ -152,7 +159,9 @@
 
                 </div>
 
-                <div class='extra-info'></div>
+                <div class='extra-info-container'>
+
+                </div>
 
             </article>
         <?php } ?>

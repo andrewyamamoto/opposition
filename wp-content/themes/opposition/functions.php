@@ -119,7 +119,6 @@ function opposition_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'opposition_scripts' );
-
 add_image_size( 'member-image', 117, 117, true );
 
 /**

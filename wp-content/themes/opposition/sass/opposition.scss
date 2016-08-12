@@ -20,7 +20,8 @@ h1{
 
 #intro,
 #about,
-#team
+#team,
+#shop
 {
     @extend .content-padding;
     h1{
@@ -116,54 +117,54 @@ h1{
     @include img-cover();
     .member-area{
         margin-top:30px;
-        overflow:auto;
-        .extra-info{
-            overflow: hidden;
-            height: 0px;
+        .extra-info-container{
+            overflow:hidden;
+            height: 0;
             background-color: rgba($black, 0.4);
-            //darken($grey-mid,8%);
             transition: height, .5s;
             text-align:center;
-
             .extra-content{
                 padding:50px 0;
-            }
-            .name{
-                font-family: 'abelregular', sans-serif;
-                text-transform: uppercase;
-                font-size:22px;
-                color:$blue-elec;
-                font-weight:normal;
-            }
-            .close-btn{
-                color:$grey-light;
-                padding:20px;
-                cursor: pointer;
-                font-size:20px;
-                display:inline-block;
-            }
-            .title{
-                font-family: 'abelregular', sans-serif;
-                text-transform: uppercase;
-                font-size:16px;
-                color:$white;
-                margin-bottom:15px;
-            }
-            .attributes{
-                text-transform: uppercase;
-                color:$blue-elec;
-                display:inline-block;
-                &:after{
-                    content:" / ";
+                .name{
+                    font-family: 'abelregular', sans-serif;
+                    text-transform: uppercase;
+                    font-size:22px;
+                    color:$blue-elec;
+                    font-weight:normal;
                 }
-                &:last-child:after{
-                     content:"";
+                .close-btn{
+                    color:$grey-light;
+                    padding:20px;
+                    cursor: pointer;
+                    font-size:20px;
+                    display:inline-block;
+                }
+                .title{
+                    font-family: 'abelregular', sans-serif;
+                    text-transform: uppercase;
+                    font-size:16px;
+                    color:$white;
+                    margin-bottom:15px;
                 }
             }
-            .label{
-                text-transform: uppercase;
-                color:$blue-elec;
-                font-size:14px;
+            .attributes-content{
+                .attributes{
+                    padding:50px 0;
+                    text-transform: uppercase;
+                    color:$blue-elec;
+                    display:inline-block;
+                    &:after{
+                        content:" / ";
+                    }
+                    &:last-child:after{
+                         content:"";
+                    }
+                    .label{
+                        text-transform: uppercase;
+                        color:$blue-elec;
+                        font-size:14px;
+                    }
+                }
             }
         }
         .member{
@@ -232,7 +233,7 @@ h1{
     }
 }
 #shop{
-    height:3000px;
+    // height:3000px;
 }
 .bbpress{
 
