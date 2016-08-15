@@ -176,6 +176,7 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
 	// This example changes the label "Venue" to "Location", and "Related Events" to "Similar Events"
 	$custom_text = array(
 		'There were no results found.' => 'There are no events at this time.',
+		'Register For This Site' => 'Register to Opposition',
 	);
 
 	// If this text domain starts with "tribe-", "the-events-", or "event-" and we have replacement text

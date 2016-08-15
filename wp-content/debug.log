@@ -15484,3 +15484,4 @@
 [15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 22:52:02 UTC] PHP Notice:  Undefined index: active in /srv/www/opposition/htdocs/wp-content/plugins/custom-login/includes/class-cl-settings-api.php on line 771
