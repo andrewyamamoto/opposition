@@ -122,6 +122,29 @@
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
+#tribe-events-content-wrapper {
+  margin-top: 80px; }
+  #tribe-events-content-wrapper .tribe-bar-disabled {
+    display: none; }
+  #tribe-events-content-wrapper .tribe-events-page-title {
+    display: none; }
+  #tribe-events-content-wrapper .tribe-events-list-event-title {
+    color: #00ccff;
+    margin-top: 10px; }
+    #tribe-events-content-wrapper .tribe-events-list-event-title .event-date {
+      float: right;
+      font-size: 14px;
+      line-height: 1.2;
+      vertical-align: text-bottom; }
+  #tribe-events-content-wrapper .type-tribe_events {
+    padding: 15px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333; }
+    #tribe-events-content-wrapper .type-tribe_events:last-child {
+      border-top: 0; }
+  #tribe-events-content-wrapper .tribe-events-venue-details {
+    font-size: 14px; }
+
 body {
   background-color: #000;
   color: #FFF;
@@ -328,6 +351,13 @@ h1 {
   .bbpress #intro .navbar {
     padding-bottom: 0; }
 
+#schedule {
+  margin-top: 200px; }
+  #schedule h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px; }
+
 #news {
   margin-top: 200px;
   text-align: center; }
@@ -356,3 +386,7 @@ h1 {
         margin-bottom: 15px; }
       #news .post .content p {
         margin-bottom: 15px; }
+    #news .post img {
+      display: block;
+      max-width: 100%;
+      height: auto; }

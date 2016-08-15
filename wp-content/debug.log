@@ -15447,3 +15447,40 @@
 [15-Aug-2016 03:06:42 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [15-Aug-2016 03:06:42 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [15-Aug-2016 03:06:42 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:20:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:20:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:20:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:20:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:21:05 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:21:05 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:21:05 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 03:21:05 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:22:27 UTC] PHP Notice:  Undefined variable: img in /srv/www/opposition/htdocs/wp-content/themes/opposition/category-news.php on line 36
+[15-Aug-2016 17:22:27 UTC] PHP Fatal error:  Call to a member function getAttribute() on a non-object in /srv/www/opposition/htdocs/wp-content/themes/opposition/category-news.php on line 36
+[15-Aug-2016 17:23:09 UTC] PHP Notice:  Undefined variable: img in /srv/www/opposition/htdocs/wp-content/themes/opposition/category-news.php on line 36
+[15-Aug-2016 17:23:09 UTC] PHP Fatal error:  Call to a member function getAttribute() on a non-object in /srv/www/opposition/htdocs/wp-content/themes/opposition/category-news.php on line 36
+[15-Aug-2016 17:36:35 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:35 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:35 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:35 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:40 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:40 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:40 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:40 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 17:36:49 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 19:00:11 UTC] PHP Parse error:  syntax error, unexpected '/' in /srv/www/opposition/htdocs/wp-content/themes/opposition/tribe-events/list/single-event.php on line 56
+[15-Aug-2016 19:00:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /srv/www/opposition/htdocs/wp-content/themes/opposition/tribe-events/list/single-event.php on line 56
+[15-Aug-2016 20:31:57 UTC] PHP Fatal error:  Call to a member function check_stock_status() on a non-object in /srv/www/opposition/htdocs/wp-content/plugins/woocommerce/includes/class-wc-post-data.php on line 179
+[15-Aug-2016 20:32:42 UTC] PHP Fatal error:  Call to a member function check_stock_status() on a non-object in /srv/www/opposition/htdocs/wp-content/plugins/woocommerce/includes/class-wc-post-data.php on line 179
+[15-Aug-2016 20:47:52 UTC] PHP Fatal error:  Call to a member function check_stock_status() on a non-object in /srv/www/opposition/htdocs/wp-content/plugins/woocommerce/includes/class-wc-post-data.php on line 179
+[15-Aug-2016 21:00:06 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:06 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:06 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:06 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[15-Aug-2016 21:00:18 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418

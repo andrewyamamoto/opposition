@@ -1,0 +1,31 @@
+#tribe-events-content-wrapper{
+    margin-top:80px;
+    .tribe-bar-disabled{
+        display:none;
+    }
+    .tribe-events-page-title{
+        display:none;
+
+    }
+    .tribe-events-list-event-title{
+        color:$blue-elec;
+        margin-top:10px;
+        .event-date{
+            float:right;
+            font-size:14px;
+            line-height: 1.2;
+            vertical-align: text-bottom;
+        }
+    }
+    .type-tribe_events{
+        padding:15px;
+        border-top:1px solid $grey-mid;
+        border-bottom:1px solid $grey-mid;
+        &:last-child{
+            border-top:0;
+        }
+    }
+    .tribe-events-venue-details{
+        font-size:14px;
+    }
+}
