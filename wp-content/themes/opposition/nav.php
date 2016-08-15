@@ -27,12 +27,30 @@
                         'theme_location'  => 'primary',
                         'menu_id'         => 'primary-menu',
                         'menu_class'      => 'nav navbar-nav',
-                        'container'       => 'div',
+                        'container'       => 'ul',
                         'container_class' => '',
-                        'container_id'    => 'navbar-collapse',
+                        // 'container_id'    => 'navbar-collapse',
                     ) );
+                    wp_nav_menu( array(
+                        'theme_location'  => 'action',
+                        'menu_id'         => '',
+                        'menu_class'      => 'nav navbar-nav',
+                        // 'menu_class'      => 'nav navbar-nav action pull-right',
+                        'container'       => 'div',
+                        'container_class' => 'pull-right action',
+                        // 'container_id'    => 'navbar-collapse',
+                    ) );
+
+
                 ?>
             </div><!-- /.navbar-collapse -->
+
+            <?php
+
+
+
+            ?>
+
 
         </div>
     </nav>

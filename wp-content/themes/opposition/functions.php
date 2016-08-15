@@ -110,6 +110,7 @@ function opposition_scripts() {
 
 	wp_enqueue_script( 'opposition-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(), '20160805', true );
 	wp_enqueue_script( 'opposition-velocity', get_template_directory_uri() . '/js/velocity.min.js', array(), '20160805', true );
+	wp_enqueue_script( 'opposition-sticky', get_template_directory_uri() . '/js/jquery.sticky.js', array(), '20160805', true );
 	wp_enqueue_script( 'opposition-fa', 'https://use.fontawesome.com/e9939d5625.js', array(), '20160805', true );
 	wp_enqueue_script( 'opposition-boostrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20160805', true );
 	wp_enqueue_script( 'opposition-app-js', get_template_directory_uri() . '/js/opposition.js', array(), '20160805', true );
@@ -120,7 +121,36 @@ function opposition_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'opposition_scripts' );
 add_image_size( 'member-image', 117, 117, true );
+function op_get_featured_count() {
+	$meta_query   = WC()->query->get_meta_query();
+	$meta_query[] = array(
+	    'key'   => '_featured',
+	    'value' => 'yes'
+	);
+	$args = array(
+	    'post_type'   =>  'product',
+	    'stock'       =>  1,
+	    'showposts'   =>  6,
+	    'meta_query'  =>  $meta_query,
+	);
 
+	$featured_products = new WP_Query( $args );
+
+	return $featured_products->found_posts;
+}
+
+/* redirect users to front page after login */
+function redirect_to_front_page() {
+	global $redirect_to;
+	if (!isset($_GET['redirect_to'])) {
+		$redirect_to = get_option('siteurl');
+	}
+}
+add_action('login_form', 'redirect_to_front_page');
+add_filter('embed_oembed_html', 'my_embed_oembed_html', 99, 4);
+function my_embed_oembed_html($html, $url, $attr, $post_id) {
+  return '<div class="embed-responsive embed-responsive-16by9 post-embed">' . $html . '</div>';
+}
 /**
  * Implement the Custom Header feature.
  */

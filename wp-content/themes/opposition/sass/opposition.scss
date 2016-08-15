@@ -2,13 +2,15 @@
 @import '_fonts';
 @import 'palette';
 @import '_nav';
-
+@import "_mq";
 
 
 body{
     background-color:#000;
     color:#FFF;
     font-family: 'source_code_proregular', sans-serif;
+    position:relative;
+    overflow-x:hidden;
 }
 h1{
     font-family: 'abelregular', sans-serif;
@@ -27,6 +29,7 @@ h1{
     h1{
         text-align:center;
         margin-bottom: 20px;
+        text-transform: uppercase;
     }
     p{
         text-align:center;
@@ -35,54 +38,40 @@ h1{
 .interiorheader{
     background:url(../img/start-animate-flip.jpg) center top no-repeat;
     position: absolute;
-    top:-50px;
+    top:0;
     left: 50%;
     z-index: -100;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    height: 100%;
+    height: 300px;
     width:100%;
-    /* @include img-cover();*/
+}
+#bgvid{
+    position: absolute;
+    top:0px;
+    left: 50%;
+    // width:100%;
+    width:1400px;
+    max-width:1400px;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 #navi{
     padding-top: 0px;
-    // padding-bottom:200px;
     width:100%;
-    z-index:1000;
+    background-color: rgba(0,0,0,0.8);
+    z-index:99999;
     position:relative;
-    overflow:hidden;
-    .actionbar{
-        position:relative;
-        z-index:2;
-        font-family: 'abelregular', sans-serif;
-        text-transform: uppercase;
-    }
-    nav{
-        position:relative;
-        z-index:3;
-    }
-    .intro-vid{
-        width:100%;
-        overflow-x:hidden;
-        #bgvid{
-            position: absolute;
-            top:-50px;
-            left: 50%;
-            z-index: -100;
-            -webkit-transform: translateX(-50%);
-                    transform: translateX(-50%);
-        }
-    }
-
-
 }
 #intro{
-    padding-top: 0px;
-    // padding-bottom:200px;
+    padding-top: 300px;
     width:100%;
-    z-index:1000;
-    position:relative;
     overflow:hidden;
+    padding-bottom:400px;
+    >.container{
+        position:relative;
+    }
     .actionbar{
         position:relative;
         z-index:2;
@@ -91,24 +80,36 @@ h1{
         position:relative;
         z-index:3;
     }
-    .intro-vid{
-        width:100%;
-        overflow-x:hidden;
-        #bgvid{
-            position: absolute;
-            top:-50px;
-            left: 50%;
-            z-index: -100;
-            -webkit-transform: translateX(-50%);
-                    transform: translateX(-50%);
+    .callout{
+        text-align:center;
+        margin-top:30px;
+        .team{
+            border:1px solid $white;
+            background:none;
+            padding:20px 30px;
+            font-size:18px;
+            border-radius:0;
+            transition: background-color , .2s;
+            &:hover{
+                background-color: rgba($blue-midnight, 0.5);
+                box-shadow:0px 0px 25px $blue-elec;
+            }
         }
     }
-
-
 }
 
+footer{
+    // height:400px;
+    // background: linear-gradient( rgba($black, 0.0), rgba($black, 0.5) );
+
+}
 #about{
-    background:linear-gradient( rgba( $black, 1 ), rgba( $blue-midnight, 1 ) );
+    margin-top:-200px;
+    padding:300px 0 300px 0;
+    background:
+        linear-gradient( rgba( $black, 1 ), rgba( $black, 0.70 ), rgba( $blue-midnight, 1 ) ),
+        url(../img/bg-team.jpg) center center fixed;
+        @include img-cover();
 }
 #team{
     background:
@@ -235,12 +236,56 @@ h1{
 #shop{
     // height:3000px;
 }
+#forums{
+    margin-top:200px;
+}
 .bbpress{
 
     #intro{
         padding-bottom:0;
         .navbar{
             padding-bottom:0;
+        }
+
+    }
+}
+#news{
+    margin-top:200px;
+    text-align:center;
+    h1{
+        text-transform: uppercase;
+    }
+    .post{
+        padding:30px 30px 15px 30px;
+        border-bottom:1px solid #333;
+        &:first-child{
+            margin-top:50px;
+        }
+        &:last-child{
+            margin-bottom:50px;
+            // border-bottom:1px solid #333;
+        }
+        .title{
+            font-family: 'abelregular', sans-serif;
+            text-transform: uppercase;
+            font-size:30px;
+            margin-bottom:15px;
+            // border-bottom:1px solid $white;
+            padding-bottom:15px;
+        }
+        .date{
+            text-transform: uppercase;
+            color:$blue-elec;
+            margin-bottom:30px;
+        }
+        .content{
+            .post-embed{
+                margin-bottom:15px;
+            }
+            p{
+                margin-bottom:15px;
+            }
+            text-align:left;
         }
 
     }

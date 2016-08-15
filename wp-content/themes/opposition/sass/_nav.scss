@@ -1,7 +1,10 @@
+nav{
 
+}
 .navbar{
-    margin-top:140px;
-    margin-bottom:100px;
+    // margin-top:140px;
+    margin-bottom:0;
+
     .navbar-header{
         text-align:center;
         img{
@@ -65,15 +68,25 @@
     .navbar-nav {
         display: inline-block;
         float: none;
+        position:relative;
     }
 
     .navbar-collapse {
         text-align: center;
         border:none;
+        .action-link{
+            margin-left:100px;
+        }
+        .action{
+            position:absolute;
+            right:0;
+            top:0;
+        }
     }
     &.navbar-default{
         border:none;
         background:none;
+
         text-align:center;
         ul {
             li{

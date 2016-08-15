@@ -24,8 +24,7 @@
   font-weight: normal;
   font-style: normal; }
 .navbar {
-  margin-top: 140px;
-  margin-bottom: 100px; }
+  margin-bottom: 0; }
   .navbar .navbar-header {
     text-align: center; }
     .navbar .navbar-header img {
@@ -72,10 +71,17 @@
       margin: 0 !important; }
   .navbar .navbar-nav {
     display: inline-block;
-    float: none; }
+    float: none;
+    position: relative; }
   .navbar .navbar-collapse {
     text-align: center;
     border: none; }
+    .navbar .navbar-collapse .action-link {
+      margin-left: 100px; }
+    .navbar .navbar-collapse .action {
+      position: absolute;
+      right: 0;
+      top: 0; }
   .navbar.navbar-default {
     border: none;
     background: none;
@@ -106,10 +112,22 @@
         display: inline-block;
         padding: 10px 14px; }
 
+@media (max-width: 767px) {
+  .navbar .navbar-collapse .pull-right, .navbar .navbar-collapse.in .pull-right {
+    position: relative;
+    float: none !important; } }
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
 body {
   background-color: #000;
   color: #FFF;
-  font-family: 'source_code_proregular', sans-serif; }
+  font-family: 'source_code_proregular', sans-serif;
+  position: relative;
+  overflow-x: hidden; }
 
 h1 {
   font-family: 'abelregular', sans-serif;
@@ -126,7 +144,8 @@ h1 {
 #team h1,
 #shop h1 {
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-transform: uppercase; }
 #intro p,
 #about p,
 #team p,
@@ -136,65 +155,66 @@ h1 {
 .interiorheader {
   background: url(../img/start-animate-flip.jpg) center top no-repeat;
   position: absolute;
-  top: -50px;
+  top: 0;
   left: 50%;
   z-index: -100;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  height: 100%;
-  width: 100%;
-  /* @include img-cover();*/ }
+  height: 300px;
+  width: 100%; }
+
+#bgvid {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 1400px;
+  max-width: 1400px;
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
 
 #navi {
   padding-top: 0px;
   width: 100%;
-  z-index: 1000;
-  position: relative;
-  overflow: hidden; }
-  #navi .actionbar {
-    position: relative;
-    z-index: 2;
-    font-family: 'abelregular', sans-serif;
-    text-transform: uppercase; }
-  #navi nav {
-    position: relative;
-    z-index: 3; }
-  #navi .intro-vid {
-    width: 100%;
-    overflow-x: hidden; }
-    #navi .intro-vid #bgvid {
-      position: absolute;
-      top: -50px;
-      left: 50%;
-      z-index: -100;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); }
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  position: relative; }
 
 #intro {
-  padding-top: 0px;
+  padding-top: 300px;
   width: 100%;
-  z-index: 1000;
-  position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 400px; }
+  #intro > .container {
+    position: relative; }
   #intro .actionbar {
     position: relative;
     z-index: 2; }
   #intro nav {
     position: relative;
     z-index: 3; }
-  #intro .intro-vid {
-    width: 100%;
-    overflow-x: hidden; }
-    #intro .intro-vid #bgvid {
-      position: absolute;
-      top: -50px;
-      left: 50%;
-      z-index: -100;
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%); }
+  #intro .callout {
+    text-align: center;
+    margin-top: 30px; }
+    #intro .callout .team {
+      border: 1px solid #FFF;
+      background: none;
+      padding: 20px 30px;
+      font-size: 18px;
+      border-radius: 0;
+      transition: background-color , .2s; }
+      #intro .callout .team:hover {
+        background-color: rgba(14, 37, 58, 0.5);
+        box-shadow: 0px 0px 25px #00ccff; }
 
 #about {
-  background: linear-gradient(black, #0e253a); }
+  margin-top: -200px;
+  padding: 300px 0 300px 0;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), #0e253a), url(../img/bg-team.jpg) center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 #team {
   background: linear-gradient(#0e253a, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bg-team.jpg) center center;
@@ -300,7 +320,39 @@ h1 {
         transition: border-color, .2s;
         transition: border-width, .2s; }
 
+#forums {
+  margin-top: 200px; }
+
 .bbpress #intro {
   padding-bottom: 0; }
   .bbpress #intro .navbar {
     padding-bottom: 0; }
+
+#news {
+  margin-top: 200px;
+  text-align: center; }
+  #news h1 {
+    text-transform: uppercase; }
+  #news .post {
+    padding: 30px 30px 15px 30px;
+    border-bottom: 1px solid #333; }
+    #news .post:first-child {
+      margin-top: 50px; }
+    #news .post:last-child {
+      margin-bottom: 50px; }
+    #news .post .title {
+      font-family: 'abelregular', sans-serif;
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 15px; }
+    #news .post .date {
+      text-transform: uppercase;
+      color: #00ccff;
+      margin-bottom: 30px; }
+    #news .post .content {
+      text-align: left; }
+      #news .post .content .post-embed {
+        margin-bottom: 15px; }
+      #news .post .content p {
+        margin-bottom: 15px; }

@@ -7,7 +7,7 @@
 
 get_header();
 ?>
-
+<section id="forums">
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
@@ -29,6 +29,6 @@ get_header();
         </div>
     </div>
 </div>
-
+</section>
 <?php
     get_footer();

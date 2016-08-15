@@ -10,10 +10,10 @@ $document.ready(function($){
     var option = {
         easing: "easeInBounce",
     };
-    $('.navbar a').on('click', function(e){
+    $('.navbar a, .team').on('click', function(e){
         $(this.hash).velocity('scroll', {duration: 1500,easing: "easeOutQuint" });
     });
-
+    $("#navi").sticky({zIndex:9999});
 
     $('.member').on('click', function( e ){
         var s = $('body').scrollTop();

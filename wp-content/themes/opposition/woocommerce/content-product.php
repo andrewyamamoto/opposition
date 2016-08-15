@@ -18,7 +18,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
 global $product, $woocommerce_loop;
 
 // Store loop count we're currently on
@@ -40,20 +39,41 @@ if ( ! $product || ! $product->is_visible() ) {
 $woocommerce_loop['loop']++;
 
 // Extra post classes
-$classes = array();
+$classes = array("col-lg-3");
+
+// switch(op_get_featured_count()){
+// 	case 1:
+// 	$offset = ' col-lg-offset-4';
+// 	// echo "test 1";
+// 	break;
+// 	case 2:
+// 	$offset = ' col-lg-offset-4';
+// 	// echo "test 2";
+// 	case 3:
+// 	$offset = ' col-lg-offset-2';
+// 	// echo "test 3";
+// 	break;
+// }
+// echo $woocommerce_loop['loop']
+
 if ( 0 === ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 === $woocommerce_loop['columns'] ) {
 	$classes[] = 'first';
 }
+
+
 if ( 0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 	$classes[] = 'last';
 }
+
+
 ?>
 
-<div class='col-lg-3 <?php post_class( $classes ); ?>'>
+<div <?php post_class( $classes ); ?>>
 	<div class="product-item">
 
-
 	<?php
+// echo var_dump(op_get_featured_count());
+	// echo $featured_product_ids = get_transient( 'wc_featured_products' ) . "hello";
 	/**
 	 * woocommerce_before_shop_loop_item hook.
 	 *

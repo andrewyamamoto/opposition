@@ -12,6 +12,7 @@
 <section id="intro">
     <?php //the_content(); ?>
     <div class="container">
+
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
                 <div style='text-align:center'>
@@ -25,6 +26,10 @@
                     }
                  ?>
                 </h1>
+                <div class="callout">
+                    <a href="#team" class='team btn btn-primary'>WHO THE F ARE WE</a>
+                </div>
+
                 <!-- <p> -->
                     <?php
                         // if ( get_field('intro_description') ) {
@@ -35,5 +40,15 @@
             </div>
         </div>
     </div>
+    <?php if ( is_front_page() ) : ?>
+        <video id="bgvid" poster="<?php echo get_template_directory_uri() . '' ?>" autoplay muted loop>
+            <source src="<?php echo get_template_directory_uri() . '/vid/backup/Star-animate-2.mp4' ?>" type="video/mp4">
+            <source src="<?php echo get_template_directory_uri() . '/vid/backup/Star-animate-2.webm' ?>" type="video/webm">
+        </video>
+
+    <?php else: ?>
+        <!-- <div class='interiorheader'></div> -->
+    <?php endif;?>
+
 
 </section>
