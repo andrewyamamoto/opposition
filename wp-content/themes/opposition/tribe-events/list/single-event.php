@@ -22,18 +22,11 @@ $has_venue_address = ( ! empty( $venue_details['address'] ) ) ? ' location' : ''
 $organizer = tribe_get_organizer();
 
 ?>
-<?php //echo do_shortcode('[tribe-user-event-confirmations]'); ?>
-<!-- Event Cost -->
-<?php if ( tribe_get_cost() ) : ?>
-	<div class="tribe-events-event-cost">
-		<span><?php //echo tribe_get_cost( null, true ); ?></span>
-	</div>
-<?php endif; ?>
 
 <!-- Event Title -->
 <?php do_action( 'tribe_events_before_the_event_title' ) ?>
 <h2 class="tribe-events-list-event-title">
-	<?php the_title() ?>
+	<?php the_title(); ?>
 	<span class='event-date'>
 	<?php echo "When: " . tribe_events_event_schedule_details() ?>
 	</span>

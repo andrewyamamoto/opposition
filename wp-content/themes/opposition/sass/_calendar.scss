@@ -5,7 +5,13 @@
     }
     .tribe-events-page-title{
         display:none;
-
+    }
+    .tribe-events-notices{
+        background:none;
+        color:$white;
+        border:0;
+        border-top:1px solid $grey-mid;
+        border-bottom:1px solid $grey-mid;
     }
     .tribe-events-list-event-title{
         color:$blue-elec;
@@ -23,6 +29,9 @@
         border-bottom:1px solid $grey-mid;
         &:last-child{
             border-top:0;
+        }
+        &:first-child{
+            border-top:1px solid $grey-mid;
         }
     }
     .tribe-events-venue-details{
