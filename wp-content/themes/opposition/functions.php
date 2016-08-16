@@ -186,6 +186,100 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
     return $translation;
 }
 add_filter('gettext', 'tribe_custom_theme_text', 20, 3);
+/* bbPress Custom Roles */
+// function add_custom_role( $bbp_roles ) {
+// 	$bbp_roles['opp_user'] = array(
+// 	'name' => 'Opposition User'
+// 	);
+// 	$bbp_roles['opp_member'] = array(
+// 	'name' => 'Opposition Member',
+// 	'capabilities' => bbp_get_caps_for_role( bbp_get_participant_role() ) // the same capabilities as participants
+// 	);
+// 	$bbp_roles['opp_officer'] = array(
+// 	'name' => 'Opposition Officer',
+// 	'capabilities' => bbp_get_caps_for_role( bbp_get_participant_role() ) // the same capabilities as participants
+// 	);
+// 	$bbp_roles['opp_founder'] = array(
+// 	'name' => 'Opposition Founder',
+// 	'capabilities' => bbp_get_caps_for_role( bbp_get_moderator_role() ) // the same capabilities as participants
+// 	);
+//
+// 	return $bbp_roles;
+//
+// }
+// add_filter( 'bbp_get_dynamic_roles', 'add_custom_role', 1 );
+//
+// function add_role_caps_filter( $caps, $role )
+// {
+//     /* Only filter for roles we are interested in! */
+//     if( $role == 'opp_user' )
+//         $caps = custom_capabilities( $role );
+//
+//     if( $role == 'opp_member' )
+//         $caps = custom_capabilities( $role );
+//
+// 	if( $role == 'opp_officer' )
+//         $caps = custom_capabilities( $role );
+//
+// 	if( $role == 'opp_founder' )
+// 	    $caps = custom_capabilities( $role );
+//
+//     return $caps;
+// }
+//
+// add_filter( 'bbp_get_caps_for_role', 'add_role_caps_filter', 10, 2 );
+//
+// function custom_capabilities( $role )
+// {
+//     switch ( $role )
+//     {
+//
+//         /* Capabilities for 'User' role */
+//         case 'opp_user':
+//             return array(
+//                 // Primary caps
+//                 'spectate'              => true,
+//                 'participate'           => false,
+//                 'moderate'              => false,
+//                 'throttle'              => false,
+//                 'view_trash'            => false,
+//
+//                 // Forum caps
+//                 'publish_forums'        => false,
+//                 'edit_forums'           => false,
+//                 'edit_others_forums'    => false,
+//                 'delete_forums'         => false,
+//                 'delete_others_forums'  => false,
+//                 'read_private_forums'   => false,
+//                 'read_hidden_forums'    => false,
+//
+//                 // Topic caps
+//                 'publish_topics'        => false,
+//                 'edit_topics'           => false,
+//                 'edit_others_topics'    => false,
+//                 'delete_topics'         => false,
+//                 'delete_others_topics'  => false,
+//                 'read_private_topics'   => false,
+//
+//                 // Reply caps
+//                 'publish_replies'       => false,
+//                 'edit_replies'          => false,
+//                 'edit_others_replies'   => false,
+//                 'delete_replies'        => false,
+//                 'delete_others_replies' => false,
+//                 'read_private_replies'  => false,
+//
+//                 // Topic tag caps
+//                 'manage_topic_tags'     => false,
+//                 'edit_topic_tags'       => false,
+//                 'delete_topic_tags'     => false,
+//                 'assign_topic_tags'     => false,
+//             );
+// 		break;
+//         default :
+//             return $role;
+//     }
+// }
 /**
  * Implement the Custom Header feature.
  */

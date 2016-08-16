@@ -4,6 +4,7 @@
 @import '_nav';
 @import "_mq";
 @import '_calendar';
+@import '_bbpress';
 
 body{
     background-color:#000;
@@ -250,6 +251,14 @@ footer{
     }
 }
 #schedule{
+    margin-top:200px;
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom:10px;
+    }
+}
+#forums{
     margin-top:200px;
     h1{
         text-transform: uppercase;
