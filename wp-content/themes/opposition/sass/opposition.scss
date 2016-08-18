@@ -5,27 +5,34 @@
 @import "_mq";
 @import '_calendar';
 @import '_bbpress';
+@import '_frontier';
 
 body{
     background-color:#000;
-    color:#FFF;
     font-family: 'source_code_proregular', sans-serif;
     position:relative;
     overflow-x:hidden;
 }
 h1{
+
     font-family: 'abelregular', sans-serif;
     font-size:43px;
 }
 .content-padding{
     padding:200px 0 200px 0;
 }
-
+.btn-primary{
+    background-color:$blue-elec;   
+}
 #intro,
 #about,
 #team,
-#shop
+#shop,
+#schedule,
+#news,
+#irl
 {
+    color:#FFF;
     @extend .content-padding;
     h1{
         text-align:center;
@@ -108,14 +115,14 @@ footer{
     margin-top:-200px;
     padding:300px 0 300px 0;
     background:
-        linear-gradient( rgba( $black, 1 ), rgba( $black, 0.70 ), rgba( $blue-midnight, 1 ) ),
-        url(../img/bg-team.jpg) center center fixed;
+        linear-gradient( rgba( $black, 1 ), rgba( $black, 0.70 ), rgba( $black, 1 ) ),
+        url(../img/bg-team-1.jpg) center center fixed;
         @include img-cover();
 }
 #team{
     background:
-        linear-gradient(rgba($blue-midnight,1),rgba($black,0.70),rgba($black,0.70),rgba($black,1)),
-        url(../img/bg-team.jpg) center center;
+        linear-gradient(rgba($black,1),rgba($black,0.70),rgba($black,0.70),rgba($black,1)),
+        url(../img/bg-team-1.jpg) center center;
     @include img-cover();
     .member-area{
         margin-top:30px;
@@ -237,9 +244,7 @@ footer{
 #shop{
     // height:3000px;
 }
-#forums{
-    margin-top:200px;
-}
+
 .bbpress{
 
     #intro{
@@ -259,8 +264,10 @@ footer{
     }
 }
 #forums{
+    text-align: left;
     margin-top:200px;
     h1{
+        color:$white;
         text-transform: uppercase;
         text-align: center;
         margin-bottom:10px;
@@ -310,5 +317,28 @@ footer{
             height: auto;
         }
 
+    }
+}
+#irl{
+    margin-top:200px;
+    text-align:center;
+    h1{
+        text-transform: uppercase;
+    }
+    .date{
+        font-size:12px;
+        margin-bottom:20px;
+        color:$blue-elec;
+    }
+    .toggle-add{
+        // background-color: $grey-mid;
+        margin-bottom:30px;
+        padding:10px;
+        button{
+            border:1px solid $blue-elec;
+            border-radius:0;
+            background:none;
+            padding:10px 20px;
+        }
     }
 }

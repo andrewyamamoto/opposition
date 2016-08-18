@@ -8,62 +8,64 @@
  */
 
 ?>
+<div class="container">
 
-<form id="bbp-your-profile" action="<?php bbp_user_profile_edit_url( bbp_get_displayed_user_id() ); ?>" method="post" enctype="multipart/form-data">
+	<div class="row">
 
-	<h2 class="entry-title"><?php _e( 'Name', 'bbpress' ) ?></h2>
+		<div class="col-lg-8">
 
-	<?php do_action( 'bbp_user_edit_before' ); ?>
+			<form id="bbp-your-profile" action="<?php bbp_user_profile_edit_url( bbp_get_displayed_user_id() ); ?>" method="post" enctype="multipart/form-data">
 
-	<fieldset class="bbp-form">
-		<legend><?php _e( 'Name', 'bbpress' ) ?></legend>
+				<h2 class="entry-title"><?php _e( 'Name', 'bbpress' ) ?></h2>
 
-		<?php do_action( 'bbp_user_edit_before_name' ); ?>
+				<?php do_action( 'bbp_user_edit_before' ); ?>
 
-		<div>
-			<label for="first_name"><?php _e( 'First Name', 'bbpress' ) ?></label>
-			<input type="text" name="first_name" id="first_name" value="<?php bbp_displayed_user_field( 'first_name', 'edit' ); ?>" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
-		</div>
+				<fieldset class="bbp-form">
+					<legend><?php _e( 'Name', 'bbpress' ) ?></legend>
+					<?php do_action( 'bbp_user_edit_before_name' ); ?>
 
-		<div>
-			<label for="last_name"><?php _e( 'Last Name', 'bbpress' ) ?></label>
-			<input type="text" name="last_name" id="last_name" value="<?php bbp_displayed_user_field( 'last_name', 'edit' ); ?>" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
-		</div>
+					<div class='form-group'>
+						<label for="first_name"><?php _e( 'First Name', 'bbpress' ) ?></label>
+						<input type="text" name="first_name" id="first_name" value="<?php bbp_displayed_user_field( 'first_name', 'edit' ); ?>" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
+					</div>
 
-		<div>
-			<label for="nickname"><?php _e( 'Nickname', 'bbpress' ); ?></label>
-			<input type="text" name="nickname" id="nickname" value="<?php bbp_displayed_user_field( 'nickname', 'edit' ); ?>" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
-		</div>
+					<div class='form-group'>
+						<label for="last_name"><?php _e( 'Last Name', 'bbpress' ) ?></label>
+						<input type="text" name="last_name" id="last_name" value="<?php bbp_displayed_user_field( 'last_name', 'edit' ); ?>" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
+					</div>
 
-		<div>
-			<label for="display_name"><?php _e( 'Display Name', 'bbpress' ) ?></label>
+					<div class='form-group'>
+						<label for="nickname"><?php _e( 'Nickname', 'bbpress' ); ?></label>
+						<input type="text" name="nickname" id="nickname" value="<?php bbp_displayed_user_field( 'nickname', 'edit' ); ?>" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
+					</div>
 
-			<?php bbp_edit_user_display_name(); ?>
+					<div class='form-group'>
+						<label for="display_name"><?php _e( 'Display Name', 'bbpress' ) ?></label>
+						<?php bbp_edit_user_display_name(); ?>
+					</div>
 
-		</div>
+					<?php do_action( 'bbp_user_edit_after_name' ); ?>
 
-		<?php do_action( 'bbp_user_edit_after_name' ); ?>
+				</fieldset>
 
-	</fieldset>
+				<h2 class="entry-title"><?php _e( 'Contact Info', 'bbpress' ) ?></h2>
 
-	<h2 class="entry-title"><?php _e( 'Contact Info', 'bbpress' ) ?></h2>
+				<fieldset class="bbp-form">
+					<legend><?php _e( 'Contact Info', 'bbpress' ) ?></legend>
 
-	<fieldset class="bbp-form">
-		<legend><?php _e( 'Contact Info', 'bbpress' ) ?></legend>
+					<?php do_action( 'bbp_user_edit_before_contact' ); ?>
 
-		<?php do_action( 'bbp_user_edit_before_contact' ); ?>
+					<div class='form-group'>
+						<label for="url"><?php _e( 'Website', 'bbpress' ) ?></label>
+						<input type="text" name="url" id="url" value="<?php bbp_displayed_user_field( 'user_url', 'edit' ); ?>" class="regular-text code form-control" tabindex="<?php bbp_tab_index(); ?>" />
+					</div>
 
-		<div>
-			<label for="url"><?php _e( 'Website', 'bbpress' ) ?></label>
-			<input type="text" name="url" id="url" value="<?php bbp_displayed_user_field( 'user_url', 'edit' ); ?>" class="regular-text code" tabindex="<?php bbp_tab_index(); ?>" />
-		</div>
+					<?php foreach ( bbp_edit_user_contact_methods() as $name => $desc ) : ?>
 
-		<?php foreach ( bbp_edit_user_contact_methods() as $name => $desc ) : ?>
-
-			<div>
-				<label for="<?php echo esc_attr( $name ); ?>"><?php echo apply_filters( 'user_' . $name . '_label', $desc ); ?></label>
-				<input type="text" name="<?php echo esc_attr( $name ); ?>" id="<?php echo esc_attr( $name ); ?>" value="<?php bbp_displayed_user_field( $name, 'edit' ); ?>" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
-			</div>
+					<div class='form-group'>
+						<label for="<?php echo esc_attr( $name ); ?>"><?php echo apply_filters( 'user_' . $name . '_label', $desc ); ?></label>
+						<input type="text" name="<?php echo esc_attr( $name ); ?>" id="<?php echo esc_attr( $name ); ?>" value="<?php bbp_displayed_user_field( $name, 'edit' ); ?>" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
+					</div>
 
 		<?php endforeach; ?>
 
@@ -78,9 +80,9 @@
 
 		<?php do_action( 'bbp_user_edit_before_about' ); ?>
 
-		<div>
+		<div class='form-group'>
 			<label for="description"><?php _e( 'Biographical Info', 'bbpress' ); ?></label>
-			<textarea name="description" id="description" rows="5" cols="30" tabindex="<?php bbp_tab_index(); ?>"><?php bbp_displayed_user_field( 'description', 'edit' ); ?></textarea>
+			<textarea name="description" id="description" rows="5" cols="30" class='form-control' tabindex="<?php bbp_tab_index(); ?>"><?php bbp_displayed_user_field( 'description', 'edit' ); ?></textarea>
 		</div>
 
 		<?php do_action( 'bbp_user_edit_after_about' ); ?>
@@ -94,15 +96,15 @@
 
 		<?php do_action( 'bbp_user_edit_before_account' ); ?>
 
-		<div>
+		<div class='form-group'>
 			<label for="user_login"><?php _e( 'Username', 'bbpress' ); ?></label>
-			<input type="text" name="user_login" id="user_login" value="<?php bbp_displayed_user_field( 'user_login', 'edit' ); ?>" disabled="disabled" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
+			<input type="text" name="user_login" id="user_login" value="<?php bbp_displayed_user_field( 'user_login', 'edit' ); ?>" disabled="disabled" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
 		</div>
 
-		<div>
+		<div class='form-group'>
 			<label for="email"><?php _e( 'Email', 'bbpress' ); ?></label>
 
-			<input type="text" name="email" id="email" value="<?php bbp_displayed_user_field( 'user_email', 'edit' ); ?>" class="regular-text" tabindex="<?php bbp_tab_index(); ?>" />
+			<input type="text" name="email" id="email" value="<?php bbp_displayed_user_field( 'user_email', 'edit' ); ?>" class="regular-text form-control" tabindex="<?php bbp_tab_index(); ?>" />
 
 			<?php
 
@@ -123,10 +125,9 @@
 		<div id="password">
 			<label for="pass1"><?php _e( 'New Password', 'bbpress' ); ?></label>
 			<fieldset class="bbp-form password">
-				<input type="password" name="pass1" id="pass1" size="16" value="" autocomplete="off" tabindex="<?php bbp_tab_index(); ?>" />
+				<input type="password" name="pass1" id="pass1" size="16" value="" class='form-control' autocomplete="off" tabindex="<?php bbp_tab_index(); ?>" />
 				<span class="description"><?php _e( 'If you would like to change the password type a new one. Otherwise leave this blank.', 'bbpress' ); ?></span>
-
-				<input type="password" name="pass2" id="pass2" size="16" value="" autocomplete="off" tabindex="<?php bbp_tab_index(); ?>" />
+				<input type="password" name="pass2" id="pass2" size="16" value="" autocomplete="off" class='form-control' tabindex="<?php bbp_tab_index(); ?>" />
 				<span class="description"><?php _e( 'Type your new password again.', 'bbpress' ); ?></span><br />
 
 				<div id="pass-strength-result"></div>
@@ -175,8 +176,12 @@
 
 			<?php bbp_edit_user_form_fields(); ?>
 
-			<button type="submit" tabindex="<?php bbp_tab_index(); ?>" id="bbp_user_edit_submit" name="bbp_user_edit_submit" class="button submit user-submit"><?php bbp_is_user_home_edit() ? _e( 'Update Profile', 'bbpress' ) : _e( 'Update User', 'bbpress' ); ?></button>
+			<button type="submit" tabindex="<?php bbp_tab_index(); ?>" id="bbp_user_edit_submit" name="bbp_user_edit_submit" class="button btn btn-primary submit user-submit"><?php bbp_is_user_home_edit() ? _e( 'Update Profile', 'bbpress' ) : _e( 'Update User', 'bbpress' ); ?></button>
 		</div>
 	</fieldset>
 
 </form>
+
+</div>
+</div>
+</div>
