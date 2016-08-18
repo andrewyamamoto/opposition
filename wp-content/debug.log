@@ -16274,3 +16274,7 @@
 [18-Aug-2016 18:00:58 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
 [18-Aug-2016 18:01:05 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
 [18-Aug-2016 19:24:36 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[18-Aug-2016 23:20:17 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[18-Aug-2016 23:20:34 UTC] PHP Notice:  Undefined index: group2 in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/user-profile.php on line 73
+[18-Aug-2016 23:20:34 UTC] PHP Notice:  Undefined index: group3 in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/user-profile.php on line 73
+[18-Aug-2016 23:20:38 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
