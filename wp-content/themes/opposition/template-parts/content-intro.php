@@ -41,9 +41,9 @@
         </div>
     </div>
     <?php if ( is_front_page() ) : ?>
-        <video id="bgvid" poster="<?php echo get_template_directory_uri() . '' ?>" autoplay muted loop>
-            <source src="<?php echo get_template_directory_uri() . '/vid/backup/Star-animate-2.mp4' ?>" type="video/mp4">
-            <source src="<?php echo get_template_directory_uri() . '/vid/backup/Star-animate-2.webm' ?>" type="video/webm">
+        <video id="bgvid" poster="<?php echo get_template_directory_uri() . '/img/star.jpg' ?>" autoplay muted loop>
+            <source src="<?php echo get_template_directory_uri() . '/vid/Star.mp4.mp4' ?>" type="video/mp4">
+            <source src="<?php echo get_template_directory_uri() . '/vid/Star.webmvp8.webm' ?>" type="video/webm">
         </video>
 
     <?php else: ?>

@@ -1,10 +1,10 @@
-<?php 
+<?php
 
 global $fps_access_check_msg;
 //Reset access message
 $fps_access_check_msg = "";
 
-$concat= get_option("permalink_structure")?"?":"&";    
+$concat= get_option("permalink_structure")?"?":"&";
 //set the permalink for the page itself
 $frontier_permalink = get_permalink();
 
@@ -20,9 +20,9 @@ if (strlen(trim($fpost_sc_parms['frontier_add_link_text']))>0)
 		$tmp_add_text = $fpost_sc_parms['frontier_add_link_text'];
 	else
 		$tmp_add_text = __("Create New", "frontier-post")." ".fp_get_posttype_label_singular($fpost_sc_parms['frontier_add_post_type']);
-	
 
-$fp_cat_list = implode(",", $fpost_sc_parms['frontier_cat_id']); 
+
+$fp_cat_list = implode(",", $fpost_sc_parms['frontier_cat_id']);
 
 /*
 echo "post_type: ".$frontier_add_post_type."<br>";
@@ -31,7 +31,7 @@ echo "Label: ".fp_get_posttype_label_singular($frontier_add_post_type);
 
 if (frontier_can_add($fpost_sc_parms['frontier_add_post_type']) && !fp_get_option_bool("fps_hide_add_on_list"))
 	{
-		
+
 
 	echo '<table class="frontier-menu" >';
 		echo '<tr class="frontier-menu">';
@@ -41,14 +41,14 @@ if (frontier_can_add($fpost_sc_parms['frontier_add_post_type']) && !fp_get_optio
 		echo '</tr>';
 	echo '</table>';
 
-	} 
+	}
 else
 	{
 	if ( current_user_can("manage_options") && strlen(trim($fps_access_check_msg)) > 0)
 		{
 		echo '<div id="frontier-post-posttype-warning">';
 		echo $fps_access_check_msg;
-		echo ' - '.__("This message is only shown to admins", "frontier-post").'<br><br>';		
+		echo ' - '.__("This message is only shown to admins", "frontier-post").'<br><br>';
 		echo '</div>';
 		}
 	} // if can_add
@@ -63,13 +63,13 @@ frontier_quickpost($fpost_sc_parms);
 
 if( $user_posts->found_posts > 0 )
 	{
-	
+
 	$tmp_status_list = get_post_statuses( );
 
 	// If post for all users is viewed, show author instead of category
 	if (fp_bool($fpost_sc_parms['frontier_list_all_posts']) || fp_bool($fpost_sc_parms['frontier_list_pending_posts']) )
 		$cat_author_heading = __("Author", "frontier-post");
-	else	
+	else
 		$cat_author_heading = __("Category", "frontier-post");
 ?>
 
@@ -78,7 +78,7 @@ if( $user_posts->found_posts > 0 )
 	<thead>
 		<tr>
 			<th class="frontier-list-posts" id="frontier-list-posts-date"><?php _e("Date", "frontier-post"); ?></th>
-			<th class="frontier-list-posts" id="frontier-list-posts-title"><?php _e("Title", "frontier-post"); ?></th>	
+			<th class="frontier-list-posts" id="frontier-list-posts-title"><?php _e("Title", "frontier-post"); ?></th>
 			<?php
 			// do not show Status if list all posts, as all are published
 			if ( !fp_bool($fpost_sc_parms['frontier_list_all_posts']) || current_user_can( 'edit_private_posts' ) )
@@ -88,11 +88,11 @@ if( $user_posts->found_posts > 0 )
 			<th class="frontier-list-posts" id="frontier-list-posts-cmt"><?php echo frontier_get_icon('comments'); ?></th> <!--number of comments-->
 			<th class="frontier-list-posts" id="frontier-list-posts-action"><?php _e("Action", "frontier-post"); ?></th>
 		</tr>
-	</thead> 
+	</thead>
 	<!--</div>-->
 	<tbody>
-	<?php 
-	while ($user_posts->have_posts()) 
+	<?php
+	while ($user_posts->have_posts())
 		{
 			$user_posts->the_post();
 	?>
@@ -102,12 +102,12 @@ if( $user_posts->found_posts > 0 )
 				<?php if ($post->post_status == "publish")
 						{ ?>
 						<a class="frontier-list-posts" id="frontier-list-posts-title-link" href="<?php echo get_permalink($post->ID);?>"><?php echo $post->post_title;?></a>
-				<?php	} 
+				<?php	}
 					else
 						{
 						echo $post->post_title;
 						} ?>
-						
+
 				</td>
 				<?php
 				if ( !fp_bool($fpost_sc_parms['frontier_list_all_posts']) || current_user_can( 'edit_private_posts' ) )
@@ -121,7 +121,7 @@ if( $user_posts->found_posts > 0 )
 						}
 					echo '</td>';
 				?>
-				<?php  
+				<?php
 					// If post for all users is viewed, show author instead of category
 					if (fp_bool($fpost_sc_parms['frontier_list_all_posts']) || fp_bool($fpost_sc_parms['frontier_list_pending_posts']) )
 						{
@@ -137,9 +137,9 @@ if( $user_posts->found_posts > 0 )
 						foreach ($categories as $category) :
 							$cnt = $cnt+1;
 							if ($cnt > 1)
-								echo "</br>".$category->cat_name; 
+								echo "</br>".$category->cat_name;
 							else
-								echo $category->cat_name; 
+								echo $category->cat_name;
 						endforeach;
 						}
 				?></td>
@@ -152,13 +152,13 @@ if( $user_posts->found_posts > 0 )
 					echo frontier_post_delete_link($post, $fp_show_icons, $frontier_permalink);
 					echo frontier_post_preview_link($post, $fp_show_icons);
 					*/
-							
+
 					?>
 					&nbsp;
 				</td>
 			</tr>
-		<?php 
-		} 
+		<?php
+		}
 		?>
 	</tbody>
 </table>
@@ -166,7 +166,7 @@ if( $user_posts->found_posts > 0 )
 
 	if ( fp_bool($fpost_sc_parms['frontier_pagination']) )
 		{
-		$pagination = paginate_links( 
+		$pagination = paginate_links(
 			array(
 				'base' => add_query_arg( 'pagenum', '%#%'),
 				'format' => '',
@@ -175,31 +175,31 @@ if( $user_posts->found_posts > 0 )
 				'total' => $user_posts->max_num_pages,
 				'current' => $pagenum,
 				'add_args' => false  //due to wp 4.1 bug (trac ticket 30831)
-				) 
+				)
 			);
 
-		//if ( $pagination ) 
+		//if ( $pagination )
 		//	echo $pagination;
-		if ( $pagination ) 
+		if ( $pagination )
 			{
 			echo '<br><div id="frontier-post-pagination">'.$pagination.'</div>';
 			}
-		
-		
+
+
 		}
 	if ( !fp_bool($fpost_sc_parms['frontier_list_all_posts']) )
 		echo "</br>".__("Number of posts already created by you: ", "frontier-post").$user_posts->found_posts."</br>";
-	
-	
+
+
 	} // end if have posts
-	
+
 else
 	{
 		echo "</br><center>";
 		_e('Sorry, you do not have any posts (yet)', 'frontier-post');
 		echo "</center><br></br>";
 	} // end post count
-	
+
 //Re-instate $post for the page
 wp_reset_postdata();
 

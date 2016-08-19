@@ -16279,3 +16279,6 @@
 [18-Aug-2016 23:20:34 UTC] PHP Notice:  Undefined index: group3 in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/user-profile.php on line 73
 [18-Aug-2016 23:20:38 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
 [19-Aug-2016 03:09:04 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[19-Aug-2016 05:50:57 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
+[19-Aug-2016 05:51:14 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
+[19-Aug-2016 10:02:37 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /srv/www/opposition/htdocs/wp-content/plugins/frontier-post/forms/frontier_post_form_quickpost.php on line 43

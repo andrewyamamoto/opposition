@@ -15,7 +15,10 @@
 }
 
 #fp_title {
-	width: 95%;
+	width: 100%;
+	background-color: $forum-grey;
+	border-color:$grey-mid;
+	color:$blue-elec;
 }
 
 #frontier-post-alert {
@@ -104,7 +107,13 @@ th.frontier-menu {
 }
 
 
-
+#insert-media-button{
+	background-color: $forum-grey;
+	border-color:$grey-mid;
+	color:$blue-elec;
+	box-shadow:none;
+	margin-bottom:10px;
+}
 .frontier-tax-box {
 	border:1px solid #ccc;
 	height: 200px;
@@ -155,7 +164,9 @@ fieldset.frontier_post_fieldset legend {
 	float: left !important;
 }
 
-
+.mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset {
+	background-color: $forum-grey;
+}
 fieldset.frontier_post_fieldset_tax  {
   margin: 5px !important;
   padding: 7px !important;
@@ -247,7 +258,18 @@ fieldset.frontier-new-menu {
 fieldset.frontier-new-list {
 
 	// border-bottom:1px solid $grey-mid;
-	padding:30px;
+	// padding:30px;
+	// margin: 5px;
+    // padding: 7px;
+    // float: left;
+    // height: auto;
+    // width: 97%;
+    // text-align: left;
+    // overflow-y: scroll;
+	box-shadow: none;
+	border:0;
+	padding: 0;
+	margin: 0;
     blockquote{
         background-color: $grey-mid;
         // border-left-color:lighten($grey-mid, 5%);
@@ -443,13 +465,15 @@ p.frontier-post-form-posttype {
 /* Quick post */
 
 #frontier-post-quickpost  {
-  margin: 5px;
-  padding: 7px;
-  float: left;
-  height: auto;
-  width: 97% ;
-  text-align: left ;
-  overflow-y: scroll ;
+  // margin: 5px;
+  // padding: 7px;
+  // float: left;
+  // height: auto;
+  width: 100% ;
+  // text-align: left ;
+  // overflow-y: scroll ;
+  margin: 0;
+  padding: 0;
   /*display:none;*/
 
   /*box-sizing: border-box*/
@@ -458,7 +482,7 @@ p.frontier-post-form-posttype {
 
 #frontier_quickpost_fieldset_title {
 	float: left !important;
-	width: 300px ;
+	width: 100% ;
 }
 
 
@@ -468,7 +492,8 @@ p.frontier-post-form-posttype {
 
 
 .frontier-quickpost-show {
-	display: none;
+	// display: none;
+	display: inline-block;
 }
 
 .frontier-quickpost-hide {
@@ -476,10 +501,23 @@ p.frontier-post-form-posttype {
 }
 
 
-#fp-quickpost-show {
-    /*font-size: 1.1em;
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #666;
-    margin: 8px;*/
+#fp-quickpost-show,#fp-quickpost-hide {
+    padding:10px 15px;
+	margin:0;
+	box-shadow:none;
+	border-radius:0;
+	font-size:14px;
+	background-color:$forum-grey;
+	border:1px solid $grey-mid;
+	margin-bottom:15px;
+}
+
+.fp-quickpost-ui{
+	border:1px solid $grey-mid;
+	padding:10px;
+	h3{
+		text-transform: uppercase;
+		text-align: center;
+		margin:10px 0 20px 0;
+	}
 }

@@ -19,7 +19,7 @@ h1{
     font-size:43px;
 }
 .content-padding{
-    padding:200px 0 200px 0;
+    padding:250px 0 200px 0;
 }
 .btn-primary{
     background-color:$blue-elec;
@@ -30,6 +30,8 @@ h1{
 #shop,
 #schedule,
 #news,
+#forums,
+#media,
 #irl
 {
     color:#FFF;
@@ -44,23 +46,22 @@ h1{
     }
 }
 .interiorheader{
-    background:url(../img/start-animate-flip.jpg) center top no-repeat;
+    background:url(../img/img-star.jpg) center top no-repeat;
     position: absolute;
     top:0;
     left: 50%;
     z-index: -100;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    height: 300px;
+    height: 400px;
     width:100%;
 }
 #bgvid{
     position: absolute;
     top:0px;
     left: 50%;
-    // width:100%;
-    width:1800px;
-    max-width:1800px;
+    width:1600px;
+    max-width:1600px;
     z-index: -1;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
@@ -107,8 +108,6 @@ h1{
 }
 
 footer{
-    // height:400px;
-    // background: linear-gradient( rgba($black, 0.0), rgba($black, 0.5) );
 
 }
 #about{
@@ -242,7 +241,6 @@ footer{
     }
 }
 #shop{
-    // height:3000px;
 }
 
 .bbpress{
@@ -256,7 +254,6 @@ footer{
     }
 }
 #schedule{
-    // margin-top:200px;
     h1{
         text-transform: uppercase;
         text-align: center;
@@ -265,7 +262,6 @@ footer{
 }
 #forums{
     text-align: left;
-    margin-top:200px;
     h1{
         color:$white;
         text-transform: uppercase;
@@ -273,28 +269,30 @@ footer{
         margin-bottom:10px;
     }
 }
-#news{
-    // margin-top:200px;
+#news,
+#media,
+#irl{
     text-align:center;
     h1{
         text-transform: uppercase;
     }
     .post{
         padding:30px 30px 15px 30px;
-        border-bottom:1px solid #333;
+        border-bottom:1px solid $grey-mid;
+        // border-top:1px solid $grey-mid;
         &:first-child{
             margin-top:50px;
+            // border-top:0;
         }
         &:last-child{
             margin-bottom:50px;
-            // border-bottom:1px solid #333;
+            border-bottom:0;
         }
         .title{
             font-family: 'abelregular', sans-serif;
             text-transform: uppercase;
             font-size:30px;
             margin-bottom:15px;
-            // border-bottom:1px solid $white;
             padding-bottom:15px;
         }
         .date{
@@ -310,6 +308,11 @@ footer{
                 margin-bottom:15px;
             }
             text-align:left;
+            img{
+                display: block;
+                max-width: 100%;
+                height: auto;
+            }
         }
         img{
             display: block;
@@ -320,7 +323,6 @@ footer{
     }
 }
 #irl{
-    // margin-top:200px;
     text-align:center;
     h1{
         text-transform: uppercase;
@@ -331,7 +333,6 @@ footer{
         color:$blue-elec;
     }
     .toggle-add{
-        // background-color: $grey-mid;
         margin-bottom:30px;
         padding:10px;
         button{
