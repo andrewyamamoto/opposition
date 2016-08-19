@@ -233,9 +233,9 @@ td.frontier_frontier_featured_image  {
 fieldset.frontier-new-menu {
 	margin: 3px 3px 8px 3px;
 	padding:0 3px 3px;
-	border:1px solid #666;
+	// border:1px solid #666;
 	border-radius:8px;
-	box-shadow:0 0 10px #666;
+	// box-shadow:0 0 10px #666;
 	/*padding-top:10px;*/
 	float: none;
 	text-align: center !important;
@@ -246,17 +246,17 @@ fieldset.frontier-new-menu {
 
 fieldset.frontier-new-list {
 
-	border-bottom:1px solid $grey-mid;
+	// border-bottom:1px solid $grey-mid;
 	padding:30px;
     blockquote{
         background-color: $grey-mid;
-        border-left-color:lighten($grey-mid, 5%);
+        // border-left-color:lighten($grey-mid, 5%);
     }
     li{
         text-align:left;
     }
     &:first-child{
-   	 border-top:1px solid $grey-mid;
+ //   	 border-top:1px solid $grey-mid;
     }
  }
 
