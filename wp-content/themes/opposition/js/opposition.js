@@ -2,6 +2,12 @@ var $document = jQuery( document );
 
 $document.ready(function($){
 
+    var navMain = $("#oppo-navbar-collapse");
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+        $(".navbar-toggle").removeClass('active');
+    });
+
     $(".navbar-toggle").on("click", function () {
 
         $(this).toggleClass("active");

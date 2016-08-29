@@ -31,23 +31,7 @@
     <div id="home"></div>
     <section id="navi">
 
-        <div class="actionbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <?php
-                            // wp_nav_menu( array(
-                            //     'theme_location'  => 'action',
-                            //     'menu_id'         => '',
-                            //     'menu_class'      => 'action pull-right',
-                            //     'container'       => 'a',
-                            //     'container_class' => '',
-                            // ) );
-                        ?>
-                    </div>
-                </div>
-            </div>
-        </div>
+    
 
 
 

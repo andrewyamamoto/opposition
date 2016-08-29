@@ -134,7 +134,7 @@ if( $user_posts->found_posts > 0 ){
 		//	echo $pagination;
 		if ( $pagination )
 			{
-			echo '<br><div id="frontier-post-pagination">'.$pagination.'</div>';
+			echo '<div id="frontier-post-pagination">'.$pagination.'</div>';
 			}
 
 
@@ -153,6 +153,6 @@ else
 
 //Re-instate $post for the page
 wp_reset_postdata();
-
+frontier_quickpost($fpost_sc_parms);
 ?>
-<?php frontier_quickpost($fpost_sc_parms); ?>
+<?php  ?>

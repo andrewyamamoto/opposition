@@ -434,17 +434,24 @@ p.frontier-post-form-posttype {
 }
 
 /* Pagination Styling */
+#frontier-post-pagination{
+	display:block;
+	font-size:16px;
+	margin:15px 0;
+}
 #frontier-post-pagination .page-numbers  {
-    border: 1px solid;
-    border-radius: 3px;
+    border: 0;
+	background-color:$grey-mid;
+	color:$blue-elec;
+    border-radius: 0px;
     padding-left: 2px;
     padding-right: 2px;
 }
 
 #frontier-post-pagination .current  {
-    border: 1px solid DarkGrey;
-    color: DarkGrey;
-    border-radius: 3px;
+    border: 1px solid $blue-elec;
+	background-color:$grey-mid;
+    border-radius: 0px;
     padding-left: 2px;
     padding-right: 2px;
 }

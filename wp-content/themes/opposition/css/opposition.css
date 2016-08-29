@@ -136,12 +136,15 @@
     border-bottom: 1px solid #333; }
   #tribe-events-content-wrapper .tribe-events-list-event-title {
     color: #00ccff;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 24px; }
     #tribe-events-content-wrapper .tribe-events-list-event-title .event-date {
       float: right;
       font-size: 14px;
       line-height: 1.2;
       vertical-align: text-bottom; }
+  #tribe-events-content-wrapper .tribe-events-list .tribe-events-loop .tribe-events-content p {
+    text-align: left; }
   #tribe-events-content-wrapper .type-tribe_events {
     padding: 15px;
     border-top: 1px solid #333;
@@ -1716,16 +1719,23 @@ p.frontier-post-form-posttype {
   color: darkgrey; }
 
 /* Pagination Styling */
+#frontier-post-pagination {
+  display: block;
+  font-size: 16px;
+  margin: 15px 0; }
+
 #frontier-post-pagination .page-numbers {
-  border: 1px solid;
-  border-radius: 3px;
+  border: 0;
+  background-color: #333;
+  color: #00ccff;
+  border-radius: 0px;
   padding-left: 2px;
   padding-right: 2px; }
 
 #frontier-post-pagination .current {
-  border: 1px solid DarkGrey;
-  color: DarkGrey;
-  border-radius: 3px;
+  border: 1px solid #00ccff;
+  background-color: #333;
+  border-radius: 0px;
   padding-left: 2px;
   padding-right: 2px; }
 
@@ -1778,6 +1788,46 @@ p.frontier-post-form-posttype {
     text-align: center;
     margin: 10px 0 20px 0; }
 
+#shop {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), black), url(../img/bg-shop.jpg) fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #shop .item {
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: black;
+    box-shadow: inset 0 0 30px #007a99;
+    border-radius: 4px;
+    border: 1px solid #006680; }
+    #shop .item .woocommerce-LoopProduct-link {
+      text-decoration: none; }
+    #shop .item h3 {
+      color: #FFF;
+      font-family: 'abelregular', sans-serif;
+      text-transform: uppercase; }
+    #shop .item .price {
+      color: #00ccff; }
+    #shop .item .add_to_cart_button {
+      display: none; }
+    #shop .item img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  #shop .summary {
+    float: none;
+    width: 100%; }
+  #shop .images .thumbnails {
+    display: none; }
+  #shop .images img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  #shop .product_title {
+    font-size: 20px; }
+
 body {
   background-color: #000;
   font-family: 'source_code_proregular', sans-serif;
@@ -1796,11 +1846,39 @@ h1 {
 #news,
 #forums,
 #media,
-#irl {
+#irl,
+#fourohfour {
   padding: 250px 0 200px 0; }
 
 .btn-primary {
   background-color: #00ccff; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */ }
 
 #intro,
 #about,
@@ -1810,7 +1888,8 @@ h1 {
 #news,
 #forums,
 #media,
-#irl {
+#irl,
+#fourohfour {
   color: #FFF; }
   #intro h1,
   #about h1,
@@ -1820,7 +1899,8 @@ h1 {
   #news h1,
   #forums h1,
   #media h1,
-  #irl h1 {
+  #irl h1,
+  #fourohfour h1 {
     text-align: center;
     margin-bottom: 20px;
     text-transform: uppercase; }
@@ -1832,7 +1912,8 @@ h1 {
   #news p,
   #forums p,
   #media p,
-  #irl p {
+  #irl p,
+  #fourohfour p {
     text-align: center; }
 
 .interiorheader {
@@ -2074,7 +2155,10 @@ h1 {
       #irl .post .content img {
         display: block;
         max-width: 100%;
-        height: auto; }
+        height: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 15px; }
     #news .post img,
     #media .post img,
     #irl .post img {
@@ -2098,3 +2182,46 @@ h1 {
       border-radius: 0;
       background: none;
       padding: 10px 20px; }
+
+#fourohfour {
+  text-align: center; }
+
+#shop {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), black), url(../img/bg-shop.jpg) fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  #shop .item {
+    display: block;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: black;
+    box-shadow: inset 0 0 30px #007a99;
+    border-radius: 4px;
+    border: 1px solid #006680; }
+    #shop .item .woocommerce-LoopProduct-link {
+      text-decoration: none; }
+    #shop .item h3 {
+      color: #FFF;
+      font-family: 'abelregular', sans-serif;
+      text-transform: uppercase; }
+    #shop .item .price {
+      color: #00ccff; }
+    #shop .item .add_to_cart_button {
+      display: none; }
+    #shop .item img {
+      display: block;
+      max-width: 100%;
+      height: auto; }
+  #shop .summary {
+    float: none;
+    width: 100%; }
+  #shop .images .thumbnails {
+    display: none; }
+  #shop .images img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  #shop .product_title {
+    font-size: 20px; }

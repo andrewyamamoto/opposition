@@ -26,7 +26,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<h1>
-					Purchase Legal Services
+					<!-- Purchase Legal Services -->
 				</h1>
 			</div>
 		</div>

@@ -40,7 +40,7 @@ $woocommerce_loop['loop']++;
 
 // Extra post classes
 $classes = array("col-lg-3");
-
+// echo op_get_featured_count();
 // switch(op_get_featured_count()){
 // 	case 1:
 // 	$offset = ' col-lg-offset-4';
@@ -55,12 +55,18 @@ $classes = array("col-lg-3");
 // 	break;
 // }
 // echo $woocommerce_loop['loop']
-
+// if(op_get_featured_count() == 1){
+// 	$classes[] = 'col-lg-offset-2';
+// }
+// if(op_get_featured_count() == 3){
+// 	$classes[] = 'col-lg-offset-2';
+// }
+// echo $woocommerce_loop['loop'];
 if ( 0 === ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 === $woocommerce_loop['columns'] ) {
 	$classes[] = 'first';
 }
 
-
+echo $woocommerce_loop['loop'] % $woocommerce_loop['columns'] . " dsds /";
 if ( 0 === $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 	$classes[] = 'last';
 }

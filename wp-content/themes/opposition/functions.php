@@ -186,7 +186,13 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
     return $translation;
 }
 add_filter('gettext', 'tribe_custom_theme_text', 20, 3);
+add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
+function sb_woo_remove_reviews_tab($tabs) {
 
+ unset($tabs['reviews']);
+
+ return $tabs;
+}
 /**
  * Implement the Custom Header feature.
  */

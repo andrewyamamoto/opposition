@@ -16,12 +16,16 @@
     .tribe-events-list-event-title{
         color:$blue-elec;
         margin-top:10px;
+        font-size:24px;
         .event-date{
             float:right;
             font-size:14px;
             line-height: 1.2;
             vertical-align: text-bottom;
         }
+    }
+    .tribe-events-list .tribe-events-loop .tribe-events-content{
+        p{text-align: left;}
     }
     .type-tribe_events{
         padding:15px;
