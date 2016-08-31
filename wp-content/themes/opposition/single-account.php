@@ -1,17 +1,17 @@
 <?php
     /**
-     * Template Name: Cart
+     * Template Name: Account
      *
      * @package opposition
      */
      get_header();
 ?>
-<section id="cart">
+<section id="account">
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-lg-offset-3">
-                <h1>Your Cart</h1>
+            <div class="col-lg-12">
+                <h1>My Account</h1>
             </div>
         </div>
     </div>
