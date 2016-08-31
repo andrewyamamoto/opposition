@@ -186,13 +186,22 @@ function tribe_custom_theme_text ( $translation, $text, $domain ) {
     return $translation;
 }
 add_filter('gettext', 'tribe_custom_theme_text', 20, 3);
+
 add_filter( 'woocommerce_product_tabs', 'sb_woo_remove_reviews_tab', 98);
 function sb_woo_remove_reviews_tab($tabs) {
 
  unset($tabs['reviews']);
+ unset( $tabs['additional_information'] );
 
  return $tabs;
 }
+
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+function woocommerce_template_product_description() {
+  woocommerce_get_template( 'single-product/tabs/description.php' );
+}
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_product_description', 20 );
+
 /**
  * Implement the Custom Header feature.
  */

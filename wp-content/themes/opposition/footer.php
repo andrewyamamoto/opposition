@@ -16,7 +16,6 @@
 			<source src="<?php echo get_template_directory_uri() . '/vid/orange_star_bottom.mp4' ?>" type="video/mp4">
 			<source src="<?php echo get_template_directory_uri() . '/vid/orange_star_bottom.webm' ?>" type="video/webm">
 		</video> -->
-
 	<?php else: ?>
 		<div class='interiorheader'></div>
 	<?php endif;?>

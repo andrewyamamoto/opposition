@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! empty( $breadcrumb ) ) {
-
+	// echo "<div class='col-lg-12'>";
 	echo $wrap_before;
 
 	foreach ( $breadcrumb as $key => $crumb ) {
@@ -43,5 +43,6 @@ if ( ! empty( $breadcrumb ) ) {
 	}
 
 	echo $wrap_after;
+	// echo "</div>";
 
 }

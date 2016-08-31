@@ -20,15 +20,15 @@
                 </div>
                 <h1>
                 <?php
-
+                    the_content();
                     if ( get_field('intro_title') ) {
-                        the_field('intro_title');
+                        // the_field('intro_title');
                     }
                  ?>
                 </h1>
-                <div class="callout">
+                <!-- <div class="callout">
                     <a href="#team" class='team btn btn-primary'>WHO THE F ARE WE</a>
-                </div>
+                </div> -->
 
                 <!-- <p> -->
                     <?php

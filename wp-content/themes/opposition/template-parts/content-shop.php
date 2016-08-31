@@ -32,55 +32,6 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <?php
-
-                    // echo do_shortcode( '[featured_products per_page="12" columns="" orderby="date" ]' );
-
-                    // $args = array(
-                    //     'post_type' => 'product',
-                    //     'meta_key' => '_featured',
-                    //     'meta_value' => 'yes',
-                    //     'posts_per_page' => 12
-                    // );
-                    //
-                    // $featured_query = new WP_Query( $args );
-                    //
-                    // if ($featured_query->have_posts()) :
-                    //
-                    //     while ($featured_query->have_posts()) :
-                    //
-                    //         $featured_query->the_post();
-                    //
-                    //         $product = wc_get_product( $featured_query->post->ID );
-                    //         $price = get_post_meta( $featured_query->post->ID, '_regular_price', true);
-                    //         $addtocart = get_post_meta( $featured_query->post->ID, '_regular_price', true);
-                    //         $title = get_post_meta( $featured_query->post->ID, 'post_title', true);
-                    //         // print_r($product);
-                    //         // echo "$price";
-                    //         // print the_title();
-                    //         // print_r($product);
-                    //         echo "<div class='col-lg-3'>";
-                    //         // print_r($product);
-                    //         echo woocommerce_show_product_images();
-                    //         echo woocommerce_template_single_title();
-                    //         echo woocommerce_template_single_price();
-                    //         echo woocommerce_template_loop_add_to_cart();
-                    //         echo "</div>";
-                    //         // echo "$addtocart";
-                    //         // foreach($product as $item){
-                    //         //
-                    //         // }
-                    //
-                    //         // Output product information here
-                    //
-                    //
-                    //     endwhile;
-                    //
-                    // endif;
-                    //
-                    // wp_reset_query();
-
-                ?>
 
                 <?php
 

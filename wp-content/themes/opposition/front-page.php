@@ -28,7 +28,7 @@ get_header(); ?>
 					get_template_part( 'template-parts/content', 'intro' );
 					get_template_part( 'template-parts/content', 'about' );
 					get_template_part( 'template-parts/content', 'team' );
-					get_template_part( 'template-parts/content', 'shop' );
+					// get_template_part( 'template-parts/content', 'shop' );
 
 				endwhile;
 
