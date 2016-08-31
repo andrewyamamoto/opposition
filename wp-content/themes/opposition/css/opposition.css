@@ -1799,6 +1799,10 @@ div.woocommerce-message {
     line-height: 31px;
     margin-bottom: 0; }
 
+.woocommerce-info {
+  background: none;
+  color: #FFF; }
+
 #cart {
   padding-top: 300px; }
   #cart .actions {
@@ -1810,6 +1814,10 @@ div.woocommerce-message {
   #cart .woocommerce .cart-collaterals .cart_totals, #cart .woocommerce-page .cart-collaterals .cart_totals {
     width: 100%;
     float: none; }
+  #cart .form-control {
+    background-color: #1a1a1a;
+    border-color: #333;
+    color: #00ccff; }
 
 #shop {
   background: linear-gradient(black, rgba(0, 0, 0, 0.9), black), url(../img/bg-shop.jpg) fixed;
@@ -1872,6 +1880,11 @@ div.woocommerce-message {
   #shop-product .button {
     background-color: #225a8c;
     color: #FFF; }
+  #shop-product .form-control {
+    background-color: #1a1a1a;
+    border-color: #333;
+    color: #00ccff;
+    margin-bottom: 15px; }
   #shop-product .woocommerce #content div.product div.summary, #shop-product .woocommerce div.product div.summary, #shop-product .woocommerce-page #content div.product div.summary, #shop-product .woocommerce-page div.product div.summary {
     float: none;
     width: 100%; }

@@ -207,7 +207,7 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_product_
 //   $args['input_class'] = array( 'form-control' );
 //   return $args;
 // }
-// add_filter( 'show_admin_bar', '__return_false' );
+add_filter( 'show_admin_bar', '__return_false' );
 /**
  * Implement the Custom Header feature.
  */

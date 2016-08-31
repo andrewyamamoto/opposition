@@ -11,6 +11,11 @@ div.woocommerce-message{
         margin-bottom:0;
     }
 }
+
+.woocommerce-info{
+    background:none;
+    color:$white;
+}
 #cart{
     padding-top: 300px;
     .actions{
@@ -25,6 +30,11 @@ div.woocommerce-message{
     .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals{
         width:100%;
         float:none;
+    }
+    .form-control{
+        background-color:$forum-grey;
+        border-color:$grey-mid;
+        color:$blue-elec;
     }
 
 }
@@ -109,7 +119,12 @@ div.woocommerce-message{
         background-color: $blue-dark;
         color:$white;
     }
-
+    .form-control{
+        background-color:$forum-grey;
+        border-color:$grey-mid;
+        color:$blue-elec;
+        margin-bottom:15px;
+    }
     .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary{
         float:none;
         width:100%;
