@@ -77,7 +77,7 @@ h1{
     }
 }
 .interiorheader{
-    background:url(../img/img-star.jpg) center top no-repeat;
+    background:url(../img/img-star_mini.jpg) center top no-repeat;
     position: absolute;
     top:0;
     left: 50%;
@@ -146,13 +146,13 @@ footer{
     padding:300px 0 300px 0;
     background:
         linear-gradient( rgba( $black, 1 ), rgba( $black, 0.70 ), rgba( $black, 1 ) ),
-        url(../img/bg-team-1.jpg) center center fixed;
+        url(../img/bg-team-1_mini.jpg) center center fixed;
         @include img-cover();
 }
 #team{
     background:
         linear-gradient(rgba($black,1),rgba($black,0.70),rgba($black,0.70),rgba($black,1)),
-        url(../img/bg-team-1.jpg) center center;
+        url(../img/bg-team-1_mini.jpg) center center;
     @include img-cover();
     .member-area{
         margin-top:30px;

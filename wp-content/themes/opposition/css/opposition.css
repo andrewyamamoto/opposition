@@ -2089,7 +2089,7 @@ h1 {
     text-align: center; }
 
 .interiorheader {
-  background: url(../img/img-star.jpg) center top no-repeat;
+  background: url(../img/img-star_mini.jpg) center top no-repeat;
   position: absolute;
   top: 0;
   left: 50%;
@@ -2146,14 +2146,14 @@ h1 {
 #about {
   margin-top: -200px;
   padding: 300px 0 300px 0;
-  background: linear-gradient(black, rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1.jpg) center center fixed;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1_mini.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 #team {
-  background: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1.jpg) center center;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1_mini.jpg) center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
