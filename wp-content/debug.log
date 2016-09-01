@@ -16491,3 +16491,5 @@
 [01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
 [01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[01-Sep-2016 04:35:42 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
+[01-Sep-2016 04:35:49 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706

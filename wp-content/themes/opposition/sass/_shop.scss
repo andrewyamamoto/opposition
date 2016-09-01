@@ -111,7 +111,7 @@ div.woocommerce-message{
     padding-top: 300px;
     .quantity{
         .form-control{
-            margin-bottom:0;    
+            margin-bottom:0;
         }
     }
     .woocommerce-breadcrumb{
@@ -244,9 +244,8 @@ div.woocommerce-message{
 
 }
 #account{
-    text-align:left;
     p{
-        text-align:left;
+        text-align:left !important;
     }
     .woocommerce{
         fieldset{

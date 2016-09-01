@@ -1972,39 +1972,37 @@ div.woocommerce-message {
 #checkout textarea {
   min-height: 100px; }
 
-#account {
-  text-align: left; }
-  #account p {
-    text-align: left; }
-  #account .woocommerce fieldset {
-    margin-top: 30px; }
-    #account .woocommerce fieldset legend {
-      color: #FFF;
-      padding-bottom: 15px;
-      border-color: #00ccff;
-      font-size: 16px; }
-  #account .woocommerce input[type="text"],
-  #account .woocommerce input[type="email"],
-  #account .woocommerce input[type="password"],
-  #account .woocommerce select {
-    background-color: #1a1a1a;
-    border-color: #333;
-    color: #00ccff; }
-  #account .woocommerce .login {
-    border-color: #00ccff; }
-  #account .edit-account fieldset {
-    margin-top: 30px; }
-    #account .edit-account fieldset legend {
-      color: #FFF;
-      padding-bottom: 15px;
-      border-color: #00ccff;
-      font-size: 16px; }
-  #account .edit-account input[type="text"],
-  #account .edit-account input[type="email"],
-  #account .edit-account input[type="password"] {
-    background-color: #1a1a1a;
-    border-color: #333;
-    color: #00ccff; }
+#account p {
+  text-align: left !important; }
+#account .woocommerce fieldset {
+  margin-top: 30px; }
+  #account .woocommerce fieldset legend {
+    color: #FFF;
+    padding-bottom: 15px;
+    border-color: #00ccff;
+    font-size: 16px; }
+#account .woocommerce input[type="text"],
+#account .woocommerce input[type="email"],
+#account .woocommerce input[type="password"],
+#account .woocommerce select {
+  background-color: #1a1a1a;
+  border-color: #333;
+  color: #00ccff; }
+#account .woocommerce .login {
+  border-color: #00ccff; }
+#account .edit-account fieldset {
+  margin-top: 30px; }
+  #account .edit-account fieldset legend {
+    color: #FFF;
+    padding-bottom: 15px;
+    border-color: #00ccff;
+    font-size: 16px; }
+#account .edit-account input[type="text"],
+#account .edit-account input[type="email"],
+#account .edit-account input[type="password"] {
+  background-color: #1a1a1a;
+  border-color: #333;
+  color: #00ccff; }
 
 body {
   background-color: #000;
