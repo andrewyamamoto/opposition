@@ -1827,8 +1827,11 @@ div.woocommerce-message {
   background-size: cover; }
   #shop p {
     margin-bottom: 30px; }
+  #shop .center-item {
+    margin-left: 50%;
+    transform: translateX(-50%); }
   #shop .item {
-    display: block;
+    display: inline-block;
     margin-bottom: 30px;
     padding: 15px;
     background: #14283d;
@@ -2017,13 +2020,12 @@ h1 {
 #shop,
 #schedule,
 #news,
-#forums,
 #media,
 #irl,
 #cart,
 #checkout,
 #account,
-#fourohfour {
+#fourohfour, #forums {
   padding: 250px 0 200px 0; }
 
 .btn-primary {
@@ -2062,7 +2064,6 @@ h1 {
 #shop,
 #schedule,
 #news,
-#forums,
 #media,
 #irl,
 #cart,
@@ -2076,7 +2077,6 @@ h1 {
   #shop h1,
   #schedule h1,
   #news h1,
-  #forums h1,
   #media h1,
   #irl h1,
   #cart h1,
@@ -2092,7 +2092,6 @@ h1 {
   #shop p,
   #schedule p,
   #news p,
-  #forums p,
   #media p,
   #irl p,
   #cart p,
@@ -2280,12 +2279,17 @@ h1 {
   margin-bottom: 10px; }
 
 #forums {
-  text-align: left; }
+  text-align: left;
+  color: #FFF; }
   #forums h1 {
     color: #FFF;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px; }
+  #forums h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
 
 #news,
 #media,

@@ -54,5 +54,16 @@ $document.ready(function($){
         });
 
     });
+    var count_featured = $("#shop .featured-items").length;
+    console.log(count_featured);
+    switch(count_featured){
+        case 1:
+            $("#shop .featured-items").first().addClass('center-item');
+        break;
+        case 2:
+            $("#shop .featured-items").first().addClass('col-lg-offset-3 col-md-offset-2 col-xs-offset-3');
+            $("#shop .featured-items").last().addClass('col-lg-offset-0 col-md-offset-0 col-xs-offset-3');
+        break;
+    }
 
 });

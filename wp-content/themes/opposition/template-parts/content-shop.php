@@ -32,7 +32,6 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-
                 <?php
 
                     $args = array(
@@ -50,9 +49,13 @@
                     );
 
                     $loop = new WP_Query( $args );
+                    // echo op_get_featured_count();
+                    // $product_count = op_get_featured_count();
+
                     while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
 
-                    <div class='col-lg-3'>
+                    <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 featured-items'>
+
                         <a class="item" href="<?php echo get_permalink($product->ID) ?>">
                         <?php
                             if ( has_post_thumbnail( $loop->post->ID ) )

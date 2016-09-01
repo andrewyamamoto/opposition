@@ -16448,3 +16448,42 @@
 [31-Aug-2016 20:18:59 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
 [31-Aug-2016 20:19:04 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
 [31-Aug-2016 22:19:43 UTC] PHP Notice:  Your theme version of my-account.php template is <strong>deprecated</strong> since version 2.6! Use the latest version, which supports multiple account pages and navigation, from WC 2.6.0 instead. in /srv/www/opposition/htdocs/wp-includes/functions.php on line 3706
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 22:54:58 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:02:23 UTC] PHP Notice:  Undefined index:  in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/role_assignment.php on line 61
+[31-Aug-2016 23:06:38 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:40 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:40 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:40 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:40 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:40 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:44 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:46 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:46 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:46 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:06:49 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:07:33 UTC] PHP Notice:  Undefined variable: valuecheck in /srv/www/opposition/htdocs/wp-content/plugins/bbp-private-groups/includes/functions.php on line 603
+[31-Aug-2016 23:14:11 UTC] PHP Parse error:  syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/www/opposition/htdocs/wp-content/themes/opposition/functions.php on line 222
+[31-Aug-2016 23:14:17 UTC] PHP Parse error:  syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/www/opposition/htdocs/wp-content/themes/opposition/functions.php on line 222
+[31-Aug-2016 23:14:19 UTC] PHP Parse error:  syntax error, unexpected ''fields'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /srv/www/opposition/htdocs/wp-content/themes/opposition/functions.php on line 222
+[31-Aug-2016 23:25:35 UTC] PHP Notice:  Undefined variable: offset in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 58
+[31-Aug-2016 23:25:35 UTC] PHP Notice:  Undefined variable: offset in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 58
+[01-Sep-2016 00:07:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 55

@@ -46,8 +46,12 @@ div.woocommerce-message{
     p{
         margin-bottom:30px;
     }
+    .center-item{
+        margin-left:50%;
+        transform: translateX(-50%);
+    }
     .item{
-        display:block;
+        display:inline-block;
         margin-bottom:30px;
         padding:15px;
         // background-color: darken($blue-midnight, 40%);

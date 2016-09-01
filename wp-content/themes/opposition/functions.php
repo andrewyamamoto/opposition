@@ -208,6 +208,7 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_product_
 //   return $args;
 // }
 add_filter( 'show_admin_bar', '__return_false' );
+
 /**
  * Implement the Custom Header feature.
  */
