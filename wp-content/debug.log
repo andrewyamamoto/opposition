@@ -16487,3 +16487,7 @@
 [31-Aug-2016 23:25:35 UTC] PHP Notice:  Undefined variable: offset in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 58
 [31-Aug-2016 23:25:35 UTC] PHP Notice:  Undefined variable: offset in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 58
 [01-Sep-2016 00:07:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /srv/www/opposition/htdocs/wp-content/themes/opposition/template-parts/content-shop.php on line 55
+[01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418
+[01-Sep-2016 01:00:00 UTC] PHP Notice:  Undefined property: bawlogItems::$ID in /srv/www/opposition/htdocs/wp-content/plugins/nav-menu-roles/nav-menu-roles.php on line 418

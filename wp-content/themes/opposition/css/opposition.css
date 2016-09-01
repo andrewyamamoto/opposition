@@ -1874,6 +1874,8 @@ div.woocommerce-message {
 
 #shop-product {
   padding-top: 300px; }
+  #shop-product .quantity .form-control {
+    margin-bottom: 0; }
   #shop-product .woocommerce-breadcrumb {
     text-transform: uppercase; }
     #shop-product .woocommerce-breadcrumb a {

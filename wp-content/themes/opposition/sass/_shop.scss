@@ -109,6 +109,11 @@ div.woocommerce-message{
 }
 #shop-product{
     padding-top: 300px;
+    .quantity{
+        .form-control{
+            margin-bottom:0;    
+        }
+    }
     .woocommerce-breadcrumb{
         text-transform: uppercase;
         a{
