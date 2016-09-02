@@ -26,17 +26,6 @@
                     }
                  ?>
                 </h1>
-                <!-- <div class="callout">
-                    <a href="#team" class='team btn btn-primary'>WHO THE F ARE WE</a>
-                </div> -->
-
-                <!-- <p> -->
-                    <?php
-                        // if ( get_field('intro_description') ) {
-                        //     the_field('intro_description');
-                        // }
-                     ?>
-                <!-- </p> -->
             </div>
         </div>
     </div>
@@ -45,9 +34,9 @@
             <source src="<?php echo get_template_directory_uri() . '/vid/Star.mp4.mp4' ?>" type="video/mp4">
             <source src="<?php echo get_template_directory_uri() . '/vid/Star.webmvp8.webm' ?>" type="video/webm">
         </video>
-
+        <div class='interiorheader-mobile'></div>
     <?php else: ?>
-        <!-- <div class='interiorheader'></div> -->
+        <div class='interiorheader'></div>
     <?php endif;?>
 
 

@@ -118,8 +118,20 @@
     float: none !important; } }
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #intro video {
+    display: none; } }
 /* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #intro video {
+    display: none; } }
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #intro video {
+    display: block; }
+
+  #intro .interiorheader-mobile {
+    display: none; } }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 #tribe-events-content-wrapper {
@@ -2111,6 +2123,17 @@ h1 {
   height: 400px;
   width: 100%; }
 
+.interiorheader-mobile {
+  background: url(../img/img-star_mini.jpg) center top no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -100;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  height: 400px;
+  width: 100%; }
+
 #bgvid {
   position: absolute;
   top: 0px;
@@ -2374,3 +2397,26 @@ h1 {
 
 #fourohfour {
   text-align: center; }
+
+@media (max-width: 767px) {
+  .navbar .navbar-collapse .pull-right, .navbar .navbar-collapse.in .pull-right {
+    position: relative;
+    float: none !important; } }
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #intro video {
+    display: none; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #intro video {
+    display: none; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #intro video {
+    display: block; }
+
+  #intro .interiorheader-mobile {
+    display: none; } }
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
