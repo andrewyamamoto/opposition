@@ -50,29 +50,34 @@ div.woocommerce-message{
         margin-left:50%;
         transform: translateX(-50%);
     }
+
     .item{
         display:inline-block;
         margin-bottom:30px;
         padding:15px;
-        // background-color: darken($blue-midnight, 40%);
-        // box-shadow: inset 0 0 30px darken($blue-elec,20%) ;
+
         background: #14283d; /* Old browsers */
         background: -moz-linear-gradient(top,  #14283d 0%, #0b1521 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(top,  #14283d 0%,#0b1521 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom,  #14283d 0%,#0b1521 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14283d', endColorstr='#0b1521',GradientType=0 ); /* IE6-9 */
-
         border-radius:4px;
         border:1px solid darken($blue-elec, 35%);
-        .woocommerce-LoopProduct-link{
-            text-decoration: none;
+        text-decoration:none !important;
+        transition: border-color, .2s;
+        &:hover{
+            border-color: darken($blue-elec, 20%);
         }
-
+        .woocommerce-Price-amount.amount{
+            color:$blue-elec;
+        }
+        .woocommerce-LoopProduct-link{
+            text-decoration: none !important;
+        }
         h3{
             color:$white;
             font-family: 'abelregular', sans-serif;
             text-transform: uppercase;
-
         }
         .price{
             color:$blue-elec;

@@ -1857,9 +1857,15 @@ div.woocommerce-message {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#14283d', endColorstr='#0b1521',GradientType=0 );
     /* IE6-9 */
     border-radius: 4px;
-    border: 1px solid #003d4d; }
+    border: 1px solid #003d4d;
+    text-decoration: none !important;
+    transition: border-color, .2s; }
+    #shop .item:hover {
+      border-color: #007a99; }
+    #shop .item .woocommerce-Price-amount.amount {
+      color: #00ccff; }
     #shop .item .woocommerce-LoopProduct-link {
-      text-decoration: none; }
+      text-decoration: none !important; }
     #shop .item h3 {
       color: #FFF;
       font-family: 'abelregular', sans-serif;
@@ -2186,6 +2192,8 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  #about p {
+    text-align: left; }
 
 #team {
   background: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1_mini.jpg) center center;

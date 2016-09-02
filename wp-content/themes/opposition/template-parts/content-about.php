@@ -19,15 +19,32 @@
                         }
                     ?>
                 </h1>
+                <?php
+                    if( have_rows('about_columns') ):
+                        // $count = 0;
+                        while ( have_rows('about_columns') ) : the_row();
+                            $col1 = get_sub_field('column1');
+                            $col2 = get_sub_field('column2');
+                        endwhile;
+                ?>
+                    <div class="col-lg-6">
+                        <?php echo $col1; ?>
+                    </div>
+                    <div class="col-lg-6">
+                        <?php echo $col2; ?>
+                    </div>
 
-                <p>
+                <?php
+                    else:
+                    endif;
+                ?>
                     <?php
-                        if ( get_field('about_description') ) {
-                            the_field('about_description');
-                        }
-
+                    //<p>
+                        // if ( get_field('about_description') ) {
+                        //     the_field('about_description');
+                        // }
+                        //</p>
                     ?>
-                </p>
             </div>
         </div>
     </div>
