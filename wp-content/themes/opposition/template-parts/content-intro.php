@@ -20,12 +20,16 @@
                 </div>
                 <h1>
                 <?php
-                    the_content();
+
                     if ( get_field('intro_title') ) {
-                        // the_field('intro_title');
+                        the_field('intro_title');
                     }
+
                  ?>
                 </h1>
+                <h2>
+                    <?php the_content();?>
+                </h2>
             </div>
         </div>
     </div>

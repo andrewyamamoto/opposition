@@ -2170,6 +2170,8 @@ h1 {
   #intro nav {
     position: relative;
     z-index: 3; }
+  #intro h2 {
+    text-transform: uppercase; }
   #intro .callout {
     text-align: center;
     margin-top: 30px; }
@@ -2193,7 +2195,7 @@ h1 {
   -o-background-size: cover;
   background-size: cover; }
   #about p {
-    text-align: left; }
+    text-align: center; }
 
 #team {
   background: linear-gradient(black, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), black), url(../img/bg-team-1_mini.jpg) center center;

@@ -130,6 +130,9 @@ h1{
         position:relative;
         z-index:3;
     }
+    h2{
+        text-transform: uppercase;
+    }
     .callout{
         text-align:center;
         margin-top:30px;
@@ -159,7 +162,7 @@ footer{
         url(../img/bg-team-1_mini.jpg) center center fixed;
         @include img-cover();
     p{
-        text-align:left;
+        text-align:center;
     }
 }
 #team{
