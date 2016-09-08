@@ -202,13 +202,12 @@ function woocommerce_template_product_description() {
 }
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_product_description', 20 );
 
-// add_filter('woocommerce_form_field_args',  'wc_form_field_args',10,3);
-//   function wc_form_field_args($args, $key, $value) {
-//   $args['input_class'] = array( 'form-control' );
-//   return $args;
-// }
-add_filter( 'show_admin_bar', '__return_false' );
-
+function remove_admin_bar() {
+	if (!current_user_can('administrator') && !is_admin()) {
+		show_admin_bar(false);
+	}
+}
+add_action('after_setup_theme', 'remove_admin_bar');
 /**
  * Implement the Custom Header feature.
  */
