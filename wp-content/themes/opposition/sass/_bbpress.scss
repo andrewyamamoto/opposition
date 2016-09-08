@@ -980,7 +980,8 @@ div.bbp-template-notice a {
 .bbp-topics ul.super-sticky,
 .bbp-topics ul.sticky,
 .bbp-forum-content ul.sticky {
-	background-color: #ffffe0 !important;
+	background-color: $forum-grey !important;
+	border:1px solid $blue-elec !important;
 	font-size: 1.1em;
 }
 

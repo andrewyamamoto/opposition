@@ -1006,7 +1006,8 @@ div.bbp-template-notice p {
 .bbp-topics ul.super-sticky,
 .bbp-topics ul.sticky,
 .bbp-forum-content ul.sticky {
-  background-color: #ffffe0 !important;
+  background-color: #1a1a1a !important;
+  border: 1px solid #00ccff !important;
   font-size: 1.1em; }
 
 /* =Revisions
