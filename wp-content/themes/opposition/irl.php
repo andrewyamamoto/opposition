@@ -17,20 +17,20 @@ get_header();
             </div>
         </div>
     </div>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
-            <?php
-                // Start the loop.
-                while ( have_posts() ) : the_post();
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+                <?php
+                    // Start the loop.
+                    while ( have_posts() ) : the_post();
 
-                    the_content();
+                        the_content();
 
-                endwhile;
-            ?>
+                    endwhile;
+                ?>
+            </div>
         </div>
     </div>
-</div>
 </section>
 <?php
     get_footer();

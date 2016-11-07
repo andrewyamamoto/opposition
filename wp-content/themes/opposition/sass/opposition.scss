@@ -62,7 +62,8 @@ h1{
 #cart,
 #checkout,
 #account,
-#fourohfour
+#fourohfour,
+#members
 {
     color:#FFF;
     @extend .content-padding;
@@ -163,6 +164,131 @@ footer{
         @include img-cover();
     p{
         text-align:center;
+    }
+}
+#members{
+
+    .member-header{
+        background:
+            linear-gradient(rgba($black,1),rgba($black,0.70),rgba($black,0.70),rgba($black,1)),
+            url(../img/bg-team-1_mini.jpg) center center;
+        @include img-cover();
+    }
+    .member-area{
+        margin-top:30px;
+        .extra-info-container{
+            overflow:hidden;
+            height: 0;
+            background-color: rgba($black, 0.4);
+            transition: height, .5s;
+            text-align:center;
+            .extra-content{
+                padding:50px 0;
+                .name{
+                    font-family: 'abelregular', sans-serif;
+                    text-transform: uppercase;
+                    font-size:22px;
+                    color:$blue-elec;
+                    font-weight:normal;
+                }
+                .close-btn{
+                    color:$grey-light;
+                    padding:20px;
+                    cursor: pointer;
+                    font-size:20px;
+                    display:inline-block;
+                }
+                .title{
+                    font-family: 'abelregular', sans-serif;
+                    text-transform: uppercase;
+                    font-size:16px;
+                    color:$white;
+                    margin-bottom:15px;
+                }
+            }
+            .attributes-content{
+                .attributes{
+                    padding:50px 0;
+                    text-transform: uppercase;
+                    color:$blue-elec;
+                    display:inline-block;
+                    &:after{
+                        content:" / ";
+                    }
+                    &:last-child:after{
+                         content:"";
+                    }
+                    .label{
+                        text-transform: uppercase;
+                        color:$blue-elec;
+                        font-size:14px;
+                    }
+                }
+            }
+        }
+        .member{
+            display:block;
+            border:1px solid rgba(0,0,0,0);
+            padding:30px;
+            text-align:center;
+            margin-bottom:30px;
+            border-radius:8px;
+            text-decoration:none;
+            -webkit-transition:border-color, .2s;
+            transition: border-color, .2s;
+            transition: background, .2s;
+            &.active{
+                box-shadow: inset 0px 0px 12px rgba(0,0,0,0.7);
+                background:rgba(0,0,0,0.2);
+                cursor: pointer;
+                img{
+                    border-color: $blue-elec;
+                    border-width:4px;
+                }
+            }
+            .extra{
+                display: none;
+            }
+            &:hover{
+                cursor: pointer;
+                img{
+                    border-color: $blue-elec;
+                    border-width:4px;
+                }
+            }
+            .title{
+                font-family: 'abelregular', sans-serif;
+                text-transform: uppercase;
+                font-size:16px;
+                color:$white;
+            }
+            .name{
+                font-family: 'abelregular', sans-serif;
+                text-transform: uppercase;
+                font-size:22px;
+                color:$blue-elec;
+                font-weight:normal;
+            }
+            .star{
+                margin-top:15px;
+                display:block;
+                height:30px;
+                &.gold{background:url(../img/img-star-gold.png) center no-repeat;}
+                &.silver{background:url(../img/img-star-silver.png) center no-repeat;}
+                &.bronze{background:url(../img/img-star-copper.png) center no-repeat;}
+            }
+            img{
+                display:block;
+                margin:0 auto;
+                border-radius:50%;
+                width:150px;
+                height:150px;
+                border:8px solid rgba(0,0,0,0.20);
+                margin-bottom:30px;
+                transition: border-color, .2s;
+                transition: border-width, .2s;
+            }
+        }
     }
 }
 #team{
